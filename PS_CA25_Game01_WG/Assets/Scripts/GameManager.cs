@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
  
     char [] lettersToGuess;
     bool [] lettersGuessed;
+
+    private string [] wordsToGuess = new string [] {"car", "elephant","autocar" };
     
     // Start is called before the first frame update
     void Start()
@@ -26,13 +28,16 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //CheckKeyboard ();
+        CheckKeyboard2 ();
     }
 
     void InitGame()
  
     {
-        wordToGuess = "Elephant";
+        int randomNumber = Random.Range (0, wordsToGuess.Length - 1);
+        wordToGuess = wordsToGuess [randomNumber];
+
         lengthOfWordToGuess = wordToGuess.Length;
         wordToGuess = wordToGuess.ToUpper ();
         lettersToGuess = new char[lengthOfWordToGuess];
@@ -42,12 +47,12 @@ public class GameManager : MonoBehaviour
     
     void InitLetters()
     {
-        int nbletters = 5;
+        int nbletters = lengthOfWordToGuess;
     
         for (int i = 0; i < nbletters; i++) 
         {
             Vector3 newPosition;
-            newPosition = new Vector3 (center.transform.position.x + ((i-nbletters/2.5f) *100), center.transform.position.y, center.transform.position.z);
+            newPosition = new Vector3 (center.transform.position.x + ((i-nbletters/2.5f) *50), center.transform.position.y, center.transform.position.z);
             GameObject l = (GameObject)Instantiate (letter, newPosition, Quaternion.identity);
     
             l.name = "letter" + (i + 1);
@@ -66,7 +71,33 @@ public class GameManager : MonoBehaviour
                     if (lettersToGuess [i] == 'A')
                     {
                         lettersGuessed [i] = true;
-                        GameObject.Find("letter"+(i+1)).GetComponent().text = "A";
+                        GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = "A";
+                    }
+                }
+            }
+        }
+    }
+
+    void CheckKeyboard2()
+    {
+        if (Input.anyKeyDown)
+        {
+            char letterPressed = Input.inputString.ToCharArray () [0];
+            int letterPressedAsInt = System.Convert.ToInt32 (letterPressed);
+ 
+            if (letterPressedAsInt >= 97 && letterPressed <= 122)
+            {
+                for (int i=0; i < lengthOfWordToGuess; i++)
+                {
+                    if (!lettersGuessed [i])
+                    {
+                        letterPressed = System.Char.ToUpper (letterPressed);
+ 
+                        if (lettersToGuess [i] == letterPressed)
+                        {
+                            lettersGuessed [i] = true;
+                            GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                        }
                     }
                 }
             }
