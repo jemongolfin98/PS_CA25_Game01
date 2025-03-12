@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject letter;
     public GameObject center;
+    public GameObject startGamePanel;
+    public GameObject gamePanel;
 
     private string wordToGuess = "";
     private int lengthOfWordToGuess;
@@ -15,24 +17,29 @@ public class GameManager : MonoBehaviour
     char [] lettersToGuess;
     bool [] lettersGuessed;
 
-    private string [] wordsToGuess = new string [] {"car", "elephant","autocar" };
+    private string [] wordsToGuess = new string [] {"resume", "handshake","linkedin", "internship", "job shadowing", "business attire" };
     
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         center = GameObject.Find ("CenterOfScreen");
-        InitGame();
-        InitLetters();
+        //InitGame();
+        //InitLetters();
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         //CheckKeyboard ();
         CheckKeyboard2 ();
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
-    void InitGame()
+    public void InitGame()
  
     {
         int randomNumber = Random.Range (0, wordsToGuess.Length - 1);
@@ -45,7 +52,7 @@ public class GameManager : MonoBehaviour
         lettersToGuess = wordToGuess.ToCharArray ();
     }
     
-    void InitLetters()
+    public void InitLetters()
     {
         int nbletters = lengthOfWordToGuess;
     
@@ -60,7 +67,7 @@ public class GameManager : MonoBehaviour
         } 
     }
 
-    void CheckKeyboard()
+    public void CheckKeyboard()
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
@@ -78,7 +85,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void CheckKeyboard2()
+    public void CheckKeyboard2()
     {
         if (Input.anyKeyDown)
         {
@@ -102,5 +109,14 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void StartGame()
+    {
+        startGamePanel.SetActive(false);
+        gamePanel.SetActive(true);
+
+        InitGame();
+        InitLetters();
     }
 }
