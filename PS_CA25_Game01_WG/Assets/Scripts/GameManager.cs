@@ -30,8 +30,8 @@ public class GameManager : MonoBehaviour
     private string wordToGuess = "";
     private int lengthOfWordToGuess;
  
-    char [] lettersToGuess;
-    bool [] lettersGuessed;
+    public char [] lettersToGuess;
+    public bool [] lettersGuessed;
 
     private string [] wordsToGuess = new string [] {"resume", "handshake","linkedin", "internship", "job shadowing", "business attire", "networking", "technical skills", "soft skills", "cover letter" };
 
@@ -40,28 +40,29 @@ public class GameManager : MonoBehaviour
     int wordCounter = 0;
 
 
-    bool word0Completed;
-    bool word1Completed;
-    bool word2Completed;
-    bool word3Completed;
-    bool word4Completed;
-    bool word5Completed;
-    bool word6Completed;
-    bool word7Completed;
-    bool word8Completed;
-    bool word9Completed;
+    bool word0Completed = false;
+    bool word1Completed = false;
+    bool word2Completed = false;
+    bool word3Completed = false;
+    bool word4Completed = false;
+    bool word5Completed = false;
+    bool word6Completed = false;
+    bool word7Completed = false;
+    bool word8Completed = false;
+    bool word9Completed = false;
 
 
     // Start is called before the first frame update
     public void Start()
     {
         center = GameObject.Find ("CenterOfScreen");
+        startGamePanel.SetActive(true);
 
         guessesLeft = 3;
 
         letterGuessed01.text = "";
-        letterGuessed02.text = "";
-        letterGuessed03.text = "";
+        //letterGuessed02.text = "";
+        //letterGuessed03.text = "";
 
         //InitGame();
         //InitLetters();
@@ -147,7 +148,7 @@ public class GameManager : MonoBehaviour
         }
 
         //CheckKeyboard ();
-        //CheckKeyboard2 ();
+        CheckKeyboard2 ();
     }
 
     public void InitGame()
@@ -281,6 +282,7 @@ public class GameManager : MonoBehaviour
         //int randomNumber = Random.Range (0, wordsToGuess.Length - 1);
         randomNumber = Random.Range (0, wordsToGuess.Length - 1);
         //wordToGuess = wordsToGuess [randomNumber];
+        ChooseWord02();
     }
 
     public void ChooseWord02()
