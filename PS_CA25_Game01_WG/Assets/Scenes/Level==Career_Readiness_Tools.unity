@@ -327,7 +327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &31303875
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3209,6 +3209,8 @@ MonoBehaviour:
   letterGuessed03: {fileID: 0}
   guessesLeftText: {fileID: 1781009659}
   hintText: {fileID: 461822819}
+  lettersToGuess: 
+  lettersGuessed: 
 --- !u!4 &1234002134
 Transform:
   m_ObjectHideFlags: 0
