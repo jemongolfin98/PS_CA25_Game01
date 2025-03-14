@@ -238,8 +238,9 @@ public class GameManager : MonoBehaviour
         startGamePanel.SetActive(false);
         gamePanel.SetActive(true);
 
-        InitGame();
-        InitLetters();
+        ChooseWord01();
+        //InitGame();
+        //InitLetters();
     }
 
     public void NextWord()
