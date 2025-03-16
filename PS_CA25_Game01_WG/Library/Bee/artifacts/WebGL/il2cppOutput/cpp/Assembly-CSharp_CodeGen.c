@@ -27,7 +27,14 @@ extern void GameManager_PausedGame_m3068518F2EAC2A6419CBC7AA239F877C441CE150 (vo
 extern void GameManager_UnPausedGame_mADE7C188DC223A7782B3DF9AF55C7AD96CC8F7CA (void);
 extern void GameManager_FreeHint_m4F1DFB09892050CEF5D46986F7A49736291AAC31 (void);
 extern void GameManager_ToMainMenu_m4D25A7B4467DA6DA9653185A106DC0FC42DBB4E3 (void);
+extern void GameManager_StartCountdown_mF76DE16ABABD4FDCF34A6A121CCE384E73440EB6 (void);
 extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+extern void U3CStartCountdownU3Ed__56__ctor_mD95DFBA43982817D91E1B01DCC8CEB35C1EE40EE (void);
+extern void U3CStartCountdownU3Ed__56_System_IDisposable_Dispose_m8718678D059F9C0859B7853984EFDDCF97DAAD65 (void);
+extern void U3CStartCountdownU3Ed__56_MoveNext_m1AEC18860C60CB4E87BA2816F58C0956E9CA3EFB (void);
+extern void U3CStartCountdownU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m51895A27CECF8C703EC6BE8C2C63FC5767B426CB (void);
+extern void U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_Reset_m302DEBADDC99C08BFAC6D8B890AA6DB4321DA65C (void);
+extern void U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_get_Current_m5BAE3236923992C8F256C905BCF187F642AF3CB2 (void);
 extern void MainMenu_Start_m1729BDE6D096D9F4C92DBE72B392BA89E9A9ECAD (void);
 extern void MainMenu_Update_m6D9E8EB1A42CC68CFAA865B9CF18FAEB81595C5C (void);
 extern void MainMenu_PlayGame_mEC2DA4274CDD4D658AE27480E2C70C6049A496B5 (void);
@@ -35,7 +42,7 @@ extern void MainMenu_QuitGame_mBF761274C14BD7341FE8C32A538D28343B63EDC4 (void);
 extern void MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+static Il2CppMethodPointer s_methodPointers[30] = 
 {
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
 	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
@@ -52,7 +59,14 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	GameManager_UnPausedGame_mADE7C188DC223A7782B3DF9AF55C7AD96CC8F7CA,
 	GameManager_FreeHint_m4F1DFB09892050CEF5D46986F7A49736291AAC31,
 	GameManager_ToMainMenu_m4D25A7B4467DA6DA9653185A106DC0FC42DBB4E3,
+	GameManager_StartCountdown_mF76DE16ABABD4FDCF34A6A121CCE384E73440EB6,
 	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	U3CStartCountdownU3Ed__56__ctor_mD95DFBA43982817D91E1B01DCC8CEB35C1EE40EE,
+	U3CStartCountdownU3Ed__56_System_IDisposable_Dispose_m8718678D059F9C0859B7853984EFDDCF97DAAD65,
+	U3CStartCountdownU3Ed__56_MoveNext_m1AEC18860C60CB4E87BA2816F58C0956E9CA3EFB,
+	U3CStartCountdownU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m51895A27CECF8C703EC6BE8C2C63FC5767B426CB,
+	U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_Reset_m302DEBADDC99C08BFAC6D8B890AA6DB4321DA65C,
+	U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_get_Current_m5BAE3236923992C8F256C905BCF187F642AF3CB2,
 	MainMenu_Start_m1729BDE6D096D9F4C92DBE72B392BA89E9A9ECAD,
 	MainMenu_Update_m6D9E8EB1A42CC68CFAA865B9CF18FAEB81595C5C,
 	MainMenu_PlayGame_mEC2DA4274CDD4D658AE27480E2C70C6049A496B5,
@@ -61,7 +75,7 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[30] = 
 {
 	6591,
 	6591,
@@ -78,7 +92,14 @@ static const int32_t s_InvokerIndices[23] =
 	6591,
 	6591,
 	6591,
+	4611,
 	6591,
+	5167,
+	6591,
+	6363,
+	6459,
+	6591,
+	6459,
 	6591,
 	6591,
 	6591,
@@ -91,7 +112,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	30,
 	s_methodPointers,
 	0,
 	NULL,

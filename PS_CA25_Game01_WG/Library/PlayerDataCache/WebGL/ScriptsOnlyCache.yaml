@@ -70,8 +70,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -258,19 +256,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16932}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20640}
     - Class: 114
-      Script: {instanceID: 23308}
+      Script: {instanceID: 23310}
     - Class: 114
-      Script: {instanceID: 23486}
+      Script: {instanceID: 23488}
     - Class: 114
-      Script: {instanceID: 23826}
+      Script: {instanceID: 23828}
     - Class: 114
-      Script: {instanceID: 24472}
+      Script: {instanceID: 24474}
     - Class: 114
-      Script: {instanceID: 25450}
+      Script: {instanceID: 25452}
     - Class: 114
-      Script: {instanceID: 26370}
+      Script: {instanceID: 26372}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -349,71 +347,71 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20632}
+      Script: {instanceID: 20252}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20634}
     - Class: 114
-      Script: {instanceID: 20700}
+      Script: {instanceID: 20640}
     - Class: 114
-      Script: {instanceID: 20794}
+      Script: {instanceID: 20702}
     - Class: 114
-      Script: {instanceID: 20872}
+      Script: {instanceID: 20796}
     - Class: 114
-      Script: {instanceID: 21220}
+      Script: {instanceID: 20874}
     - Class: 114
-      Script: {instanceID: 21272}
+      Script: {instanceID: 21222}
     - Class: 114
-      Script: {instanceID: 22078}
+      Script: {instanceID: 21274}
     - Class: 114
-      Script: {instanceID: 22940}
+      Script: {instanceID: 22080}
     - Class: 114
-      Script: {instanceID: 23002}
+      Script: {instanceID: 22942}
     - Class: 114
-      Script: {instanceID: 23134}
+      Script: {instanceID: 23004}
     - Class: 114
-      Script: {instanceID: 23308}
+      Script: {instanceID: 23136}
     - Class: 114
-      Script: {instanceID: 23486}
+      Script: {instanceID: 23310}
     - Class: 114
-      Script: {instanceID: 24110}
+      Script: {instanceID: 23488}
     - Class: 114
-      Script: {instanceID: 24178}
+      Script: {instanceID: 24112}
     - Class: 114
-      Script: {instanceID: 24414}
+      Script: {instanceID: 24180}
     - Class: 114
-      Script: {instanceID: 24502}
+      Script: {instanceID: 24416}
     - Class: 114
-      Script: {instanceID: 24736}
+      Script: {instanceID: 24504}
     - Class: 114
-      Script: {instanceID: 24806}
+      Script: {instanceID: 24738}
     - Class: 114
-      Script: {instanceID: 25406}
+      Script: {instanceID: 24808}
     - Class: 114
-      Script: {instanceID: 25450}
+      Script: {instanceID: 25408}
     - Class: 114
-      Script: {instanceID: 25636}
+      Script: {instanceID: 25452}
     - Class: 114
-      Script: {instanceID: 25880}
+      Script: {instanceID: 25638}
     - Class: 114
-      Script: {instanceID: 26172}
+      Script: {instanceID: 25882}
     - Class: 114
-      Script: {instanceID: 26300}
+      Script: {instanceID: 26174}
     - Class: 114
-      Script: {instanceID: 26370}
+      Script: {instanceID: 26302}
     - Class: 114
-      Script: {instanceID: 26380}
+      Script: {instanceID: 26372}
     - Class: 114
-      Script: {instanceID: 26462}
+      Script: {instanceID: 26382}
     - Class: 114
-      Script: {instanceID: 26568}
+      Script: {instanceID: 26464}
     - Class: 114
-      Script: {instanceID: 26704}
+      Script: {instanceID: 26570}
     - Class: 114
-      Script: {instanceID: 26956}
+      Script: {instanceID: 26706}
     - Class: 114
-      Script: {instanceID: 27702}
+      Script: {instanceID: 26958}
     - Class: 114
-      Script: {instanceID: 29436}
+      Script: {instanceID: 27704}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -941,6 +939,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe4c75203a9743390fe41454f7d841d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: 1af7e9f99d251dfa1961d4b644ced380
@@ -1501,7 +1505,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 1944629b4d696c80c3bec337053cb942
+      Hash: a62f4760cf39f9be98395a38429033f9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1937,14 +1941,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: fe4c75203a9743390fe41454f7d841d0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainMenu
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level==Career_Readiness_Tools.unity
-  playerPath: C:/Users/je425824/git/PS_CA25_Game01/PS_CA25_Game01_WG/Builds/WebBuilds/WebBuild_Test_01
+  playerPath: N:/Video Game Projects/Github Game Projects/git/SchoolProjects/PRIMESTEM/PS_CA25_Game01/PS_CA25_Game01_WG/Builds/WebBuilds/WebBuild_Test_02

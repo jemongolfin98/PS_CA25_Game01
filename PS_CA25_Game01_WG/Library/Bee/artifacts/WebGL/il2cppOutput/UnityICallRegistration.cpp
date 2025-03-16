@@ -2058,10 +2058,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Internal_InputUnsafeUtility_GetKeyDownString__Unmanaged();
 		Register_UnityEngine_Internal_InputUnsafeUtility_GetKeyDownString__Unmanaged();
 
-		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetKeyString(System.String)
-		void Register_UnityEngine_Internal_InputUnsafeUtility_GetKeyString();
-		Register_UnityEngine_Internal_InputUnsafeUtility_GetKeyString();
-
 		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetKeyString__Unmanaged(System.Byte*,System.Int32)
 		void Register_UnityEngine_Internal_InputUnsafeUtility_GetKeyString__Unmanaged();
 		Register_UnityEngine_Internal_InputUnsafeUtility_GetKeyString__Unmanaged();
@@ -4725,6 +4721,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_unscaledTime()
 		void Register_UnityEngine_Time_get_unscaledTime();
 		Register_UnityEngine_Time_get_unscaledTime();
+
+		//System.Void UnityEngine.Time::set_timeScale(System.Single)
+		void Register_UnityEngine_Time_set_timeScale();
+		Register_UnityEngine_Time_set_timeScale();
 
 	//End Registrations for type : UnityEngine.Time
 

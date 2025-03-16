@@ -48,7 +48,6 @@ extern void Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1 (void);
 extern void Input_GetLastPenContactEvent_mAB37B70407FDE3DE8230B55D3D4828DC50EAF0BF (void);
 extern void Input_ClearLastPenContactEvent_m3240C9BA6CE089E85624BD0FA031A48CDE2664A3 (void);
 extern void Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434 (void);
-extern void Input_GetKey_m8D6171F09AC784866255D2634A3986A75644BE6C (void);
 extern void Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F (void);
 extern void Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (void);
 extern void Input_get_anyKey_m6FF00BB4F01FA996E2FB3F3727EBC414C8EB2CEB (void);
@@ -80,7 +79,6 @@ extern void SendMouseEvents__cctor_m6B1E043BF3142442AC8312E9B28A54C487A5A755 (vo
 extern void HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541 (void);
 extern void HitInfo_op_Implicit_m4162F5E6640E1D2CB82AB0AE00090AB46CE997AC (void);
 extern void HitInfo_Compare_m374F9DF7CFE9C31264CD38D42FFFCA4DB0E6CD05 (void);
-extern void InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C (void);
 extern void InputUnsafeUtility_GetKeyString__Unmanaged_mD736022C3E6C98ED4B4AEA824AC2DA98A3A1B223 (void);
 extern void InputUnsafeUtility_GetKeyUpString__Unmanaged_mFD0D4ED74B64E565CB3F543CBBE38F6AE84AC27A (void);
 extern void InputUnsafeUtility_GetKeyDownString__Unmanaged_m53E2CCD225AC1CE7CB40002403EDC5AEF266EB8D (void);
@@ -94,7 +92,7 @@ extern void InputUnsafeUtility_GetButtonDown_mB35B46B92DA28196820B996E2420E5E320
 extern void InputUnsafeUtility_GetButtonDown__Unmanaged_m411E8743768382A33B3778E734AF072F8DBDECC4 (void);
 extern void InputUnsafeUtility_GetButtonUp_m3C83507077BC4A729502BF8D2677CAE6B8344905 (void);
 extern void InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2AEC6545E25D0732 (void);
-static Il2CppMethodPointer s_methodPointers[82] = 
+static Il2CppMethodPointer s_methodPointers[80] = 
 {
 	Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD,
 	Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A,
@@ -132,7 +130,6 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	Input_GetLastPenContactEvent_mAB37B70407FDE3DE8230B55D3D4828DC50EAF0BF,
 	Input_ClearLastPenContactEvent_m3240C9BA6CE089E85624BD0FA031A48CDE2664A3,
 	Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434,
-	Input_GetKey_m8D6171F09AC784866255D2634A3986A75644BE6C,
 	Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F,
 	Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2,
 	Input_get_anyKey_m6FF00BB4F01FA996E2FB3F3727EBC414C8EB2CEB,
@@ -164,7 +161,6 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541,
 	HitInfo_op_Implicit_m4162F5E6640E1D2CB82AB0AE00090AB46CE997AC,
 	HitInfo_Compare_m374F9DF7CFE9C31264CD38D42FFFCA4DB0E6CD05,
-	InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C,
 	InputUnsafeUtility_GetKeyString__Unmanaged_mD736022C3E6C98ED4B4AEA824AC2DA98A3A1B223,
 	InputUnsafeUtility_GetKeyUpString__Unmanaged_mFD0D4ED74B64E565CB3F543CBBE38F6AE84AC27A,
 	InputUnsafeUtility_GetKeyDownString__Unmanaged_m53E2CCD225AC1CE7CB40002403EDC5AEF266EB8D,
@@ -216,9 +212,9 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[18] =
 	{ 0x0600000F, Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490_AdjustorThunk },
 	{ 0x06000010, Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960_AdjustorThunk },
 	{ 0x06000011, Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21_AdjustorThunk },
-	{ 0x06000042, HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk },
+	{ 0x06000041, HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[82] = 
+static const int32_t s_InvokerIndices[80] = 
 {
 	6426,
 	6578,
@@ -256,7 +252,6 @@ static const int32_t s_InvokerIndices[82] =
 	10158,
 	10201,
 	9623,
-	9626,
 	9623,
 	9623,
 	10130,
@@ -288,7 +283,6 @@ static const int32_t s_InvokerIndices[82] =
 	5198,
 	9642,
 	8872,
-	9626,
 	8728,
 	8728,
 	8728,
@@ -307,7 +301,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGe
 const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule = 
 {
 	"UnityEngine.InputLegacyModule.dll",
-	82,
+	80,
 	s_methodPointers,
 	18,
 	s_adjustorThunks,

@@ -53,6 +53,15 @@ public class GameManager : MonoBehaviour
 
     bool wrongLetterGuessed = false;
 
+    //Timer
+    private float timer = 0.0f;
+    private int seconds;
+    public int timeLeft = 60;
+    public TMP_Text timeLeftText;
+    float currCountdownValue;
+
+    public bool wordGuessed;
+
 
     // Start is called before the first frame update
     public void Start()
@@ -60,7 +69,7 @@ public class GameManager : MonoBehaviour
         center = GameObject.Find ("CenterOfScreen");
         startGamePanel.SetActive(true);
 
-        guessesLeft = 3;
+        //guessesLeft = 3;
 
         letterGuessed01.text = "";
         //letterGuessed02.text = "";
@@ -75,20 +84,24 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        //CheckKeyboard2 ();
+        timeLeftText.text = "Time Left: " + timeLeft;
         
-        if (guessesLeft == 0)
+        // Time Left
+        if (timeLeft > 30)
         {
             hintButton.SetActive(false);
-            failPanel.SetActive(true);
+            failPanel.SetActive(false);
         }
-        else if (guessesLeft == 1)
+        else if (timeLeft <= 30 && timeLeft >= 1)
         {
             hintButton.SetActive(true);
+            failPanel.SetActive(false);
         }
-        else
+        else if (timeLeft == 0)
         {
-            hintButton.SetActive(false);
+            failPanel.SetActive(true);
+            gamePanel.SetActive(false);
+            Time.timeScale = 0f;
         }
 
         switch (randomNumber)
@@ -135,10 +148,16 @@ public class GameManager : MonoBehaviour
                 break;
         }
 
-        //if (wrongLetterGuessed == true)
-        //{
-            //guessesLeft--;
-        //}
+        if (wordGuessed == true)
+        {
+            Time.timeScale = 0f;
+            successPanel.SetActive(true);
+            gamePanel.SetActive(false);
+        }
+        else
+        {
+            successPanel.SetActive(false);
+        }
         
         guessesLeftText.text = "Guesses Left: " + guessesLeft;
 
@@ -151,14 +170,13 @@ public class GameManager : MonoBehaviour
             nextWordButton.SetActive(false);
         }
 
-        if (Input.GetKey("escape"))
+        if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
         }
 
         //CheckKeyboard ();
         CheckKeyboard2 ();
-        //CheckKeyboard2a();
     }
 
     public void InitGame()
@@ -172,6 +190,8 @@ public class GameManager : MonoBehaviour
         lettersToGuess = new char[lengthOfWordToGuess];
         lettersGuessed = new bool [lengthOfWordToGuess];   
         lettersToGuess = wordToGuess.ToCharArray ();
+
+        StartCoroutine(StartCountdown());
     }
     
     public void InitLetters()
@@ -232,63 +252,17 @@ public class GameManager : MonoBehaviour
                         {
                             lettersGuessed [i] = false;
                             wrongLetterGuessed = true;
-                            //guessesLeft--;
-                            //guessesLeft = (guessesLeft - 1) / lengthOfWordToGuess;
                             letterGuessed01.text = letterPressed.ToString();
                         }
-
-                        if (wrongLetterGuessed == true)
-                        {
-                            guessesLeft--;
-                        }
                     }
-                    else if (lettersGuessed [i])
+                    // else
+                    // {
+                    //     //successPanel.SetActive(true);
+                    //     wordGuessed = true;
+                    // }
+                    if (lettersToGuess.Length == 0)
                     {
-                        successPanel.SetActive(true);
-                    }
-                }
-            }
-        }
-    }
-
-    public void CheckKeyboard2a()
-    {
-        if (!string.IsNullOrEmpty(Input.inputString))
-        {
-            char firstChar = Input.inputString[0];
-            int letterPressedAsInt = System.Convert.ToInt32 (firstChar);
- 
-            if (letterPressedAsInt >= 97 && firstChar <= 122)
-            {
-                for (int i=0; i < lengthOfWordToGuess; i++)
-                {
-                    if (!lettersGuessed [i])
-                    {
-                        firstChar = System.Char.ToUpper (firstChar);
-    
-                        if (lettersToGuess [i] == firstChar)
-                        {
-                            lettersGuessed [i] = true;
-                            wrongLetterGuessed = false;
-                            GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = firstChar.ToString();
-                        }
-                        else if (lettersToGuess [i] != firstChar)
-                        {
-                            lettersGuessed [i] = false;
-                            wrongLetterGuessed = true;
-                            //guessesLeft--;
-                            //guessesLeft = (guessesLeft - 1) / lengthOfWordToGuess;
-                            letterGuessed01.text = firstChar.ToString();
-                        }
-
-                        if (wrongLetterGuessed == true)
-                        {
-                            guessesLeft--;
-                        }
-                    }
-                    else if (lettersGuessed [i])
-                    {
-                        successPanel.SetActive(true);
+                        wordGuessed = true;
                     }
                 }
             }
@@ -308,14 +282,18 @@ public class GameManager : MonoBehaviour
     public void NextWord()
     {
         successPanel.SetActive(false);
+        gamePanel.SetActive(true);
 
-        guessesLeft = 3;
+        //guessesLeft = 3;
+        timeLeft = 60;
+        Time.timeScale = 1.0f;
 
         letterGuessed01.text = "";
         //letterGuessed02.text = "";
         //letterGuessed03.text = "";
 
         hintButton.SetActive(false);
+        wordGuessed = false;
 
         wordCounter++;
 
@@ -325,16 +303,20 @@ public class GameManager : MonoBehaviour
     public void RepeatWord()
     {
         failPanel.SetActive(false);
+        gamePanel.SetActive(true);
 
         wordToGuess = wordsToGuess [randomNumber];
 
-        guessesLeft = 3;
+        //guessesLeft = 3;
+        timeLeft = 60;
+        Time.timeScale = 1.0f;
 
         letterGuessed01.text = "";
         //letterGuessed02.text = "";
         //letterGuessed03.text = "";
 
         hintButton.SetActive(false);
+        wordGuessed = false;
 
         InitGame();
         InitLetters();
@@ -402,11 +384,13 @@ public class GameManager : MonoBehaviour
     public void PausedGame()
     {
         pausedPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void UnPausedGame()
     {
         pausedPanel.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 
     public void FreeHint()
@@ -417,5 +401,17 @@ public class GameManager : MonoBehaviour
     public void ToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public IEnumerator StartCountdown(float countdownValue = 60)
+    {
+        currCountdownValue = countdownValue;
+        while (currCountdownValue > 0)
+        {
+            Debug.Log("Countdown: " + currCountdownValue);
+            yield return new WaitForSeconds(1.0f);
+            currCountdownValue--;
+            timeLeft = (int)currCountdownValue;
+        }
     }
 }
