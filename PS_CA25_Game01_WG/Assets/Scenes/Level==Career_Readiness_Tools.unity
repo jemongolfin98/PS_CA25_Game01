@@ -472,7 +472,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1234002133}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: NextWord
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3347,6 +3347,7 @@ MonoBehaviour:
   timeLeft: 60
   timeLeftText: {fileID: 995323538}
   wordGuessed: 0
+  lettersCorrect: 0
 --- !u!4 &1234002134
 Transform:
   m_ObjectHideFlags: 0

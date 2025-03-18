@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -61,6 +63,8 @@ public class GameManager : MonoBehaviour
     float currCountdownValue;
 
     public bool wordGuessed;
+
+    public int lettersCorrect;
 
 
     // Start is called before the first frame update
@@ -176,7 +180,10 @@ public class GameManager : MonoBehaviour
         }
 
         //CheckKeyboard ();
-        CheckKeyboard2 ();
+        //CheckKeyboard2 ();
+        CheckKeyboard2a ();
+        //CheckKeyboard3 ();
+        //CheckKeyboard3a ();
     }
 
     public void InitGame()
@@ -269,6 +276,118 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void CheckKeyboard2a()
+    {
+        if (Input.anyKeyDown)
+        {
+            char letterPressed = Input.inputString.ToCharArray () [0];
+            int letterPressedAsInt = System.Convert.ToInt32 (letterPressed);
+ 
+            if (letterPressedAsInt >= 97 && letterPressedAsInt <= 122)
+            {
+                // Check for the letter inside the word
+                letterPressed = System.Char.ToUpper(letterPressed);
+                if (!wordToGuess.Contains(letterPressed, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    wrongLetterGuessed = true;
+                    letterGuessed01.text = letterPressed.ToString();
+                }
+                else
+                {
+                    for (int i=0; i < wordToGuess.Length; i++)
+                    {
+                        // reveal the letter, and increment lettersCorrect
+                        GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                        lettersCorrect++;
+                    }
+                }
+
+                // Now that's all done, let's see if the word is revealed
+                if (lettersCorrect == wordToGuess.Length)
+                {
+                    wordGuessed = true;
+                }
+            }
+        }
+    }
+
+    public void CheckKeyboard3()
+    {
+        if (!string.IsNullOrEmpty(Input.inputString))
+        {
+            char letterPressed = Input.inputString[0];
+            int letterPressedAsInt = System.Convert.ToInt32 (letterPressed);
+ 
+            if (letterPressedAsInt >= 97 && letterPressed <= 122)
+            {
+                for (int i=0; i < lengthOfWordToGuess; i++)
+                {
+                    if (!lettersGuessed [i])
+                    {
+                        letterPressed = System.Char.ToUpper (letterPressed);
+ 
+                        if (lettersToGuess [i] == letterPressed)
+                        {
+                            lettersGuessed [i] = true;
+                            wrongLetterGuessed = false;
+                            GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                        }
+                        else if (lettersToGuess [i] != letterPressed)
+                        {
+                            lettersGuessed [i] = false;
+                            wrongLetterGuessed = true;
+                            letterGuessed01.text = letterPressed.ToString();
+                        }
+                    }
+                    // else
+                    // {
+                    //     //successPanel.SetActive(true);
+                    //     wordGuessed = true;
+                    // }
+                    if (lettersToGuess == null && lettersToGuess.Length == 0)
+                    {
+                        wordGuessed = true;
+                    }
+                }
+            }
+        }
+    }
+
+    public void CheckKeyboard3a()
+    {
+        if (!string.IsNullOrEmpty(Input.inputString))
+        {
+            char letterPressed = Input.inputString[0];
+            int letterPressedAsInt = System.Convert.ToInt32 (letterPressed);
+ 
+            if (letterPressedAsInt >= 97 && letterPressedAsInt <= 122)
+            {
+                // Check for the letter inside the word
+                letterPressed = System.Char.ToUpper(letterPressed);
+                if (!wordToGuess.Contains(letterPressed, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    wrongLetterGuessed = true;
+                    letterGuessed01.text = letterPressed.ToString();
+                }
+                else
+                {
+                    for (int i=0; i < wordToGuess.Length; i++)
+                    {
+                        // reveal the letter, and increment lettersCorrect
+                        GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                        lettersCorrect++;
+                    }
+                }
+
+                // Now that's all done, let's see if the word is revealed
+                if (lettersCorrect == wordToGuess.Length)
+                {
+                    wordGuessed = true;
+                }
+            }
+        }
+    }
+
     public void StartGame()
     {
         startGamePanel.SetActive(false);
@@ -284,6 +403,8 @@ public class GameManager : MonoBehaviour
         successPanel.SetActive(false);
         gamePanel.SetActive(true);
 
+        wordToGuess = "";
+
         //guessesLeft = 3;
         timeLeft = 60;
         Time.timeScale = 1.0f;
@@ -296,6 +417,40 @@ public class GameManager : MonoBehaviour
         wordGuessed = false;
 
         wordCounter++;
+
+        switch (randomNumber)
+        {
+            case 0:
+                word0Completed = true;
+                break;
+            case 1:
+                word1Completed = true;
+                break;
+            case 2:
+                word2Completed = true;
+                break;
+            case 3:
+                word3Completed = true;
+                break;
+            case 4:
+                word4Completed = true;
+                break;
+            case 5:
+                word5Completed = true;
+                break;
+            case 6:
+                word6Completed = true;
+                break;
+            case 7:
+                word7Completed = true;
+                break;
+            case 8:
+                word8Completed = true;
+                break;
+            case 9:
+                word9Completed = true;
+                break;
+        }
 
         ChooseWord01();
     }
