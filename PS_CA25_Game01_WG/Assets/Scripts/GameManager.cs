@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using System;
 using Random = UnityEngine.Random;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject letter;
+    public GameObject letters;
     public GameObject center;
     public GameObject hintButton;
     public GameObject pausedButton;
@@ -106,6 +108,7 @@ public class GameManager : MonoBehaviour
             failPanel.SetActive(true);
             gamePanel.SetActive(false);
             Time.timeScale = 0f;
+            Destroy(letter);
         }
 
         switch (randomNumber)
@@ -155,6 +158,7 @@ public class GameManager : MonoBehaviour
         if (wordGuessed == true)
         {
             Time.timeScale = 0f;
+            //Destroy(letter);
             successPanel.SetActive(true);
             gamePanel.SetActive(false);
         }
@@ -181,9 +185,11 @@ public class GameManager : MonoBehaviour
 
         //CheckKeyboard ();
         //CheckKeyboard2 ();
-        CheckKeyboard2a ();
+        //CheckKeyboard2a ();
+        CheckKeyboard2a1 ();
         //CheckKeyboard3 ();
         //CheckKeyboard3a ();
+        //CheckKeyboard3a1 ();
     }
 
     public void InitGame()
@@ -212,7 +218,7 @@ public class GameManager : MonoBehaviour
             GameObject l = (GameObject)Instantiate (letter, newPosition, Quaternion.identity);
     
             l.name = "letter" + (i + 1);
-            l.transform.SetParent(GameObject.Find ("Canvas").transform);
+            l.transform.SetParent(GameObject.Find ("Letters").transform);
         } 
     }
 
@@ -296,9 +302,57 @@ public class GameManager : MonoBehaviour
                 {
                     for (int i=0; i < wordToGuess.Length; i++)
                     {
-                        // reveal the letter, and increment lettersCorrect
-                        GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
-                        lettersCorrect++;
+                        if (wordToGuess[i] == letterPressed)
+                        {
+                            // reveal the letter, and increment lettersCorrect
+                            GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                            lettersCorrect++;
+                        }
+                    }
+                }
+
+                // Now that's all done, let's see if the word is revealed
+                if (lettersCorrect == wordToGuess.Length)
+                {
+                    wordGuessed = true;
+                }
+            }
+        }
+    }
+
+    public void CheckKeyboard2a1()
+    {
+        if (Input.anyKeyDown)
+        {
+            char letterPressed = Input.inputString.ToCharArray () [0];
+            int letterPressedAsInt = System.Convert.ToInt32 (letterPressed);
+ 
+            if (letterPressedAsInt >= 97 && letterPressedAsInt <= 122)
+            {
+                // Check for the letter inside the word
+                letterPressed = System.Char.ToUpper(letterPressed);
+                if (!wordToGuess.Contains(letterPressed, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    wrongLetterGuessed = true;
+                    letterGuessed01.text = letterPressed.ToString();
+                }
+                else
+                {
+                    for (int i=0; i < wordToGuess.Length; i++)
+                    {
+                        if (wordToGuess[i] == letterPressed)
+                        {
+                            if (letterPressed.ToString() != GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text)
+                            {
+                                // reveal the letter, and increment lettersCorrect
+                                GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                                lettersCorrect++;
+                            }
+                            else
+                            {
+                                lettersCorrect += 0;
+                            }
+                        }
                     }
                 }
 
@@ -373,9 +427,57 @@ public class GameManager : MonoBehaviour
                 {
                     for (int i=0; i < wordToGuess.Length; i++)
                     {
-                        // reveal the letter, and increment lettersCorrect
-                        GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
-                        lettersCorrect++;
+                        if (wordToGuess[i] == letterPressed)
+                        {
+                            // reveal the letter, and increment lettersCorrect
+                            GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                            lettersCorrect++;
+                        }
+                    }
+                }
+
+                // Now that's all done, let's see if the word is revealed
+                if (lettersCorrect == wordToGuess.Length)
+                {
+                    wordGuessed = true;
+                }
+            }
+        }
+    }
+
+    public void CheckKeyboard3a1()
+    {
+        if (!string.IsNullOrEmpty(Input.inputString))
+        {
+            char letterPressed = Input.inputString[0];
+            int letterPressedAsInt = System.Convert.ToInt32 (letterPressed);
+ 
+            if (letterPressedAsInt >= 97 && letterPressedAsInt <= 122)
+            {
+                // Check for the letter inside the word
+                letterPressed = System.Char.ToUpper(letterPressed);
+                if (!wordToGuess.Contains(letterPressed, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    wrongLetterGuessed = true;
+                    letterGuessed01.text = letterPressed.ToString();
+                }
+                else
+                {
+                    for (int i=0; i < wordToGuess.Length; i++)
+                    {
+                        if (wordToGuess[i] == letterPressed)
+                        {
+                            if (letterPressed.ToString() != GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text)
+                            {
+                                // reveal the letter, and increment lettersCorrect
+                                GameObject.Find("letter"+(i+1)).GetComponent<TMP_Text>().text = letterPressed.ToString();
+                                lettersCorrect++;
+                            }
+                            else
+                            {
+                                lettersCorrect += 0;
+                            }
+                        }
                     }
                 }
 
@@ -414,6 +516,7 @@ public class GameManager : MonoBehaviour
         //letterGuessed03.text = "";
 
         hintButton.SetActive(false);
+        hintPanel.SetActive(false);
         wordGuessed = false;
 
         wordCounter++;
@@ -471,6 +574,7 @@ public class GameManager : MonoBehaviour
         //letterGuessed03.text = "";
 
         hintButton.SetActive(false);
+        hintPanel.SetActive(false);
         wordGuessed = false;
 
         InitGame();
