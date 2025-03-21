@@ -11,7 +11,6 @@ using Unity.VisualScripting;
 public class GameManager : MonoBehaviour
 {
     public GameObject letter;
-    public GameObject letters;
     public GameObject center;
     public GameObject hintButton;
     public GameObject pausedButton;
@@ -37,11 +36,12 @@ public class GameManager : MonoBehaviour
     public char [] lettersToGuess;
     public bool [] lettersGuessed;
 
-    private string [] wordsToGuess = new string [] {"resume", "handshake","linkedin", "internship", "job shadowing", "business attire", "networking", "technical skills", "soft skills", "cover letter" };
+    private string [] wordsToGuess = new string [] {"resume", "handshake","linkedin", "internship", "jobshadowing", "businessattire", "networking", "technicalskills", "softskills", "coverletter" };
 
     int randomNumber;
     int guessesLeft;
     int wordCounter = 0;
+    //int i = 0;
 
 
     bool word0Completed = false;
@@ -58,8 +58,6 @@ public class GameManager : MonoBehaviour
     bool wrongLetterGuessed = false;
 
     //Timer
-    private float timer = 0.0f;
-    private int seconds;
     public int timeLeft = 60;
     public TMP_Text timeLeftText;
     float currCountdownValue;
@@ -105,10 +103,19 @@ public class GameManager : MonoBehaviour
         }
         else if (timeLeft == 0)
         {
+            GameObject letter;
+            int i = 0;
+            while (letter = GameObject.Find("letter" + (i+1)))
+            {
+                //Destroy(letter);
+                letter.SetActive(false);
+                i++;
+            }
+            
             failPanel.SetActive(true);
             gamePanel.SetActive(false);
             Time.timeScale = 0f;
-            Destroy(letter);
+            
         }
 
         switch (randomNumber)
@@ -161,6 +168,15 @@ public class GameManager : MonoBehaviour
             //Destroy(letter);
             successPanel.SetActive(true);
             gamePanel.SetActive(false);
+
+            GameObject letter;
+            int i = 0;
+            while (letter = GameObject.Find("letter" + (i+1)))
+            {
+                //Destroy(letter);
+                letter.SetActive(false);
+                i++;
+            }
         }
         else
         {
@@ -209,6 +225,15 @@ public class GameManager : MonoBehaviour
     
     public void InitLetters()
     {
+        // GameObject letter;
+        // int i = 0;
+        // while (letter = GameObject.Find("letter" + (i+1)))
+        // {
+        //     Destroy(letter);
+        //     letter.SetActive(false);
+        //     i++;
+        // }
+        
         int nbletters = lengthOfWordToGuess;
     
         for (int i = 0; i < nbletters; i++) 

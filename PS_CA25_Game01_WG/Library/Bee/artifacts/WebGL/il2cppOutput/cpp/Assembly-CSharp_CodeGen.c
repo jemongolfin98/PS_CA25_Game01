@@ -18,6 +18,11 @@ extern void GameManager_InitGame_mDF7FADBA0B49B6C48C3F0D2333F55208ED9023E9 (void
 extern void GameManager_InitLetters_m6F3A1288D839C039EBC8FE701744FF0BFA9EA685 (void);
 extern void GameManager_CheckKeyboard_mBC4F441518797DDC8A134D70020836CF1C169994 (void);
 extern void GameManager_CheckKeyboard2_mF8006023CBE5AAD6DBA6703D04610B3C9761B469 (void);
+extern void GameManager_CheckKeyboard2a_m763826A48EFC5828A38C4519FE3F658DD4A62730 (void);
+extern void GameManager_CheckKeyboard2a1_mB2B3D942AE74BAB49B097C20DE348BC03AF3413E (void);
+extern void GameManager_CheckKeyboard3_mB7CB5494503AB5F128F8F66101CDD8EC6270DD43 (void);
+extern void GameManager_CheckKeyboard3a_m2951C5F0E42C2E6A373134D906D80DE8A4EF29AF (void);
+extern void GameManager_CheckKeyboard3a1_mFE925228EF6CAC5FC2C6EB115ED1AA14F64D9D2A (void);
 extern void GameManager_StartGame_m2CAC97E2C33DD5FF5CF10FAF17313080A85464B7 (void);
 extern void GameManager_NextWord_mE2B055AA9ACCFA5A85DABBC96C6BDF4F478179CA (void);
 extern void GameManager_RepeatWord_mC1EC40C9D273D77DF893167B066C101B66E46AAF (void);
@@ -29,12 +34,12 @@ extern void GameManager_FreeHint_m4F1DFB09892050CEF5D46986F7A49736291AAC31 (void
 extern void GameManager_ToMainMenu_m4D25A7B4467DA6DA9653185A106DC0FC42DBB4E3 (void);
 extern void GameManager_StartCountdown_mF76DE16ABABD4FDCF34A6A121CCE384E73440EB6 (void);
 extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
-extern void U3CStartCountdownU3Ed__56__ctor_mD95DFBA43982817D91E1B01DCC8CEB35C1EE40EE (void);
-extern void U3CStartCountdownU3Ed__56_System_IDisposable_Dispose_m8718678D059F9C0859B7853984EFDDCF97DAAD65 (void);
-extern void U3CStartCountdownU3Ed__56_MoveNext_m1AEC18860C60CB4E87BA2816F58C0956E9CA3EFB (void);
-extern void U3CStartCountdownU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m51895A27CECF8C703EC6BE8C2C63FC5767B426CB (void);
-extern void U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_Reset_m302DEBADDC99C08BFAC6D8B890AA6DB4321DA65C (void);
-extern void U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_get_Current_m5BAE3236923992C8F256C905BCF187F642AF3CB2 (void);
+extern void U3CStartCountdownU3Ed__60__ctor_m3B04E41E9C84FFF07EBF25E055AB6ADBB3198A98 (void);
+extern void U3CStartCountdownU3Ed__60_System_IDisposable_Dispose_m37BB10108C9F2EC87983F3A5C4252F84C1704792 (void);
+extern void U3CStartCountdownU3Ed__60_MoveNext_m8318242C72E8248EC4912A5A209FB1D8608C74F7 (void);
+extern void U3CStartCountdownU3Ed__60_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED80E997DEEFD3F31AA5E5E8005A788506B38544 (void);
+extern void U3CStartCountdownU3Ed__60_System_Collections_IEnumerator_Reset_m3AFDED6E8AF560FDF99E59733D00351420372677 (void);
+extern void U3CStartCountdownU3Ed__60_System_Collections_IEnumerator_get_Current_m4A0CC8A34164768FF8D074139D7062A90F82B4CD (void);
 extern void MainMenu_Start_m1729BDE6D096D9F4C92DBE72B392BA89E9A9ECAD (void);
 extern void MainMenu_Update_m6D9E8EB1A42CC68CFAA865B9CF18FAEB81595C5C (void);
 extern void MainMenu_PlayGame_mEC2DA4274CDD4D658AE27480E2C70C6049A496B5 (void);
@@ -42,7 +47,7 @@ extern void MainMenu_QuitGame_mBF761274C14BD7341FE8C32A538D28343B63EDC4 (void);
 extern void MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[30] = 
+static Il2CppMethodPointer s_methodPointers[35] = 
 {
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
 	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
@@ -50,6 +55,11 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	GameManager_InitLetters_m6F3A1288D839C039EBC8FE701744FF0BFA9EA685,
 	GameManager_CheckKeyboard_mBC4F441518797DDC8A134D70020836CF1C169994,
 	GameManager_CheckKeyboard2_mF8006023CBE5AAD6DBA6703D04610B3C9761B469,
+	GameManager_CheckKeyboard2a_m763826A48EFC5828A38C4519FE3F658DD4A62730,
+	GameManager_CheckKeyboard2a1_mB2B3D942AE74BAB49B097C20DE348BC03AF3413E,
+	GameManager_CheckKeyboard3_mB7CB5494503AB5F128F8F66101CDD8EC6270DD43,
+	GameManager_CheckKeyboard3a_m2951C5F0E42C2E6A373134D906D80DE8A4EF29AF,
+	GameManager_CheckKeyboard3a1_mFE925228EF6CAC5FC2C6EB115ED1AA14F64D9D2A,
 	GameManager_StartGame_m2CAC97E2C33DD5FF5CF10FAF17313080A85464B7,
 	GameManager_NextWord_mE2B055AA9ACCFA5A85DABBC96C6BDF4F478179CA,
 	GameManager_RepeatWord_mC1EC40C9D273D77DF893167B066C101B66E46AAF,
@@ -61,12 +71,12 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	GameManager_ToMainMenu_m4D25A7B4467DA6DA9653185A106DC0FC42DBB4E3,
 	GameManager_StartCountdown_mF76DE16ABABD4FDCF34A6A121CCE384E73440EB6,
 	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
-	U3CStartCountdownU3Ed__56__ctor_mD95DFBA43982817D91E1B01DCC8CEB35C1EE40EE,
-	U3CStartCountdownU3Ed__56_System_IDisposable_Dispose_m8718678D059F9C0859B7853984EFDDCF97DAAD65,
-	U3CStartCountdownU3Ed__56_MoveNext_m1AEC18860C60CB4E87BA2816F58C0956E9CA3EFB,
-	U3CStartCountdownU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m51895A27CECF8C703EC6BE8C2C63FC5767B426CB,
-	U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_Reset_m302DEBADDC99C08BFAC6D8B890AA6DB4321DA65C,
-	U3CStartCountdownU3Ed__56_System_Collections_IEnumerator_get_Current_m5BAE3236923992C8F256C905BCF187F642AF3CB2,
+	U3CStartCountdownU3Ed__60__ctor_m3B04E41E9C84FFF07EBF25E055AB6ADBB3198A98,
+	U3CStartCountdownU3Ed__60_System_IDisposable_Dispose_m37BB10108C9F2EC87983F3A5C4252F84C1704792,
+	U3CStartCountdownU3Ed__60_MoveNext_m8318242C72E8248EC4912A5A209FB1D8608C74F7,
+	U3CStartCountdownU3Ed__60_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED80E997DEEFD3F31AA5E5E8005A788506B38544,
+	U3CStartCountdownU3Ed__60_System_Collections_IEnumerator_Reset_m3AFDED6E8AF560FDF99E59733D00351420372677,
+	U3CStartCountdownU3Ed__60_System_Collections_IEnumerator_get_Current_m4A0CC8A34164768FF8D074139D7062A90F82B4CD,
 	MainMenu_Start_m1729BDE6D096D9F4C92DBE72B392BA89E9A9ECAD,
 	MainMenu_Update_m6D9E8EB1A42CC68CFAA865B9CF18FAEB81595C5C,
 	MainMenu_PlayGame_mEC2DA4274CDD4D658AE27480E2C70C6049A496B5,
@@ -75,44 +85,49 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[30] = 
+static const int32_t s_InvokerIndices[35] = 
 {
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	4611,
-	6591,
-	5167,
-	6591,
-	6363,
-	6459,
-	6591,
-	6459,
-	6591,
-	6591,
-	6591,
-	6591,
-	6591,
-	10210,
-	6591,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	4613,
+	6593,
+	5169,
+	6593,
+	6365,
+	6461,
+	6593,
+	6461,
+	6593,
+	6593,
+	6593,
+	6593,
+	6593,
+	10212,
+	6593,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	30,
+	35,
 	s_methodPointers,
 	0,
 	NULL,

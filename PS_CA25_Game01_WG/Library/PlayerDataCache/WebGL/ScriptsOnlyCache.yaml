@@ -206,7 +206,7 @@ ScriptsOnlyBuild:
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: StartGame
+    methodName: NextWord
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: StartGame
@@ -250,21 +250,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16890}
+      Script: {instanceID: 16852}
     - Class: 114
       Script: {instanceID: 16892}
     - Class: 114
-      Script: {instanceID: 16932}
+      Script: {instanceID: 16894}
     - Class: 114
-      Script: {instanceID: 20640}
+      Script: {instanceID: 16934}
     - Class: 114
-      Script: {instanceID: 23310}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 23488}
+      Script: {instanceID: 23312}
     - Class: 114
-      Script: {instanceID: 23828}
+      Script: {instanceID: 23490}
     - Class: 114
-      Script: {instanceID: 24474}
+      Script: {instanceID: 23830}
     - Class: 114
       Script: {instanceID: 25452}
     - Class: 114
@@ -305,8 +305,6 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16886}
-    - Class: 114
       Script: {instanceID: 16888}
     - Class: 114
       Script: {instanceID: 16890}
@@ -315,71 +313,73 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16894}
     - Class: 114
-      Script: {instanceID: 16902}
+      Script: {instanceID: 16896}
     - Class: 114
-      Script: {instanceID: 16932}
+      Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 17040}
+      Script: {instanceID: 16934}
     - Class: 114
-      Script: {instanceID: 17392}
+      Script: {instanceID: 17042}
     - Class: 114
-      Script: {instanceID: 17610}
+      Script: {instanceID: 17394}
     - Class: 114
-      Script: {instanceID: 17962}
+      Script: {instanceID: 17612}
     - Class: 114
-      Script: {instanceID: 18398}
+      Script: {instanceID: 17964}
     - Class: 114
-      Script: {instanceID: 18468}
+      Script: {instanceID: 18400}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18470}
     - Class: 114
-      Script: {instanceID: 19124}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 19858}
+      Script: {instanceID: 19126}
     - Class: 114
-      Script: {instanceID: 19902}
+      Script: {instanceID: 19860}
     - Class: 114
-      Script: {instanceID: 19956}
+      Script: {instanceID: 19904}
     - Class: 114
-      Script: {instanceID: 20010}
+      Script: {instanceID: 19958}
     - Class: 114
-      Script: {instanceID: 20156}
+      Script: {instanceID: 20012}
     - Class: 114
-      Script: {instanceID: 20174}
+      Script: {instanceID: 20158}
     - Class: 114
-      Script: {instanceID: 20252}
+      Script: {instanceID: 20176}
     - Class: 114
-      Script: {instanceID: 20634}
+      Script: {instanceID: 20254}
     - Class: 114
-      Script: {instanceID: 20640}
+      Script: {instanceID: 20636}
     - Class: 114
-      Script: {instanceID: 20702}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 20796}
+      Script: {instanceID: 20704}
     - Class: 114
-      Script: {instanceID: 20874}
+      Script: {instanceID: 20798}
     - Class: 114
-      Script: {instanceID: 21222}
+      Script: {instanceID: 20876}
     - Class: 114
-      Script: {instanceID: 21274}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 22080}
+      Script: {instanceID: 21276}
     - Class: 114
-      Script: {instanceID: 22942}
+      Script: {instanceID: 22082}
     - Class: 114
-      Script: {instanceID: 23004}
+      Script: {instanceID: 22944}
     - Class: 114
-      Script: {instanceID: 23136}
+      Script: {instanceID: 23006}
     - Class: 114
-      Script: {instanceID: 23310}
+      Script: {instanceID: 23138}
     - Class: 114
-      Script: {instanceID: 23488}
+      Script: {instanceID: 23312}
     - Class: 114
-      Script: {instanceID: 24112}
+      Script: {instanceID: 23490}
     - Class: 114
-      Script: {instanceID: 24180}
+      Script: {instanceID: 24114}
     - Class: 114
-      Script: {instanceID: 24416}
+      Script: {instanceID: 24182}
+    - Class: 114
+      Script: {instanceID: 24418}
     - Class: 114
       Script: {instanceID: 24504}
     - Class: 114
@@ -435,6 +435,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7c3699b3b6f40f5a28ccaf8a3847076c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -1505,12 +1511,6 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: a62f4760cf39f9be98395a38429033f9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
       Hash: 5dc51b0140815ee83ba613dce32f5b12
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -1945,4 +1945,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level==Career_Readiness_Tools.unity
-  playerPath: N:/Video Game Projects/Github Game Projects/git/SchoolProjects/PRIMESTEM/PS_CA25_Game01/PS_CA25_Game01_WG/Builds/WebBuilds/WebBuild_Test_02
+  playerPath: N:/Video Game Projects/Github Game Projects/git/SchoolProjects/PRIMESTEM/PS_CA25_Game01/PS_CA25_Game01_WG/Builds/WebBuilds/WebBuild_Test_03
