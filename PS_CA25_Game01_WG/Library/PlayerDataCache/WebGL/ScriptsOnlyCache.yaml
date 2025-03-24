@@ -1,8 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - GameManager
-    - MainMenu
+    - GM_V02_W01
+    - GM_V02_W02
+    - GM_V02_W03
+    - GM_V02_W04
+    - GM_V02_W05
+    - GM_V02_W06
+    - GM_V02_W07
+    - GM_V02_W08
+    - GM_V02_W09
+    - GM_V02_W10
+    - MainMenuV02
+    - StartV02
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -157,11 +167,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
+    fullTypeName: MainMenuV02
     methodName: PlayGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuV02
+    methodName: QuitGame
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -205,87 +215,226 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: NextWord
+    fullTypeName: StartV02
+    methodName: PlayGame
   - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: StartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: ToMainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: FreeHint
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: RepeatWord
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: StartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: ToMainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
+    fullTypeName: GM_V02_W01
     methodName: UnPausedGame
   - assembly: Assembly-CSharp
-    fullTypeName: GameManager
+    fullTypeName: GM_V02_W01
     methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W01
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W02
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W03
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W04
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W06
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W07
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W08
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: FreeHint
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W09
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: PausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: NextWord01
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: RepeatWord
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: UnPausedGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: ToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GM_V02_W10
+    methodName: FreeHint
   sceneClasses:
-    Assets/Scenes/Level==Career_Readiness_Tools.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16852}
-    - Class: 114
-      Script: {instanceID: 16892}
-    - Class: 114
-      Script: {instanceID: 16894}
-    - Class: 114
-      Script: {instanceID: 16934}
-    - Class: 114
-      Script: {instanceID: 20642}
-    - Class: 114
-      Script: {instanceID: 23312}
-    - Class: 114
-      Script: {instanceID: 23490}
-    - Class: 114
-      Script: {instanceID: 23830}
-    - Class: 114
-      Script: {instanceID: 25452}
-    - Class: 114
-      Script: {instanceID: 26372}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MainMenu.unity:
+    Assets/Scenes/Version02/MainMenuV02.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -305,113 +454,698 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16888}
+      Script: {instanceID: 16908}
     - Class: 114
-      Script: {instanceID: 16890}
+      Script: {instanceID: 16910}
     - Class: 114
-      Script: {instanceID: 16892}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 16894}
+      Script: {instanceID: 16914}
     - Class: 114
-      Script: {instanceID: 16896}
+      Script: {instanceID: 16916}
     - Class: 114
-      Script: {instanceID: 16904}
+      Script: {instanceID: 16924}
     - Class: 114
-      Script: {instanceID: 16934}
+      Script: {instanceID: 16954}
     - Class: 114
-      Script: {instanceID: 17042}
+      Script: {instanceID: 17062}
     - Class: 114
-      Script: {instanceID: 17394}
+      Script: {instanceID: 17414}
     - Class: 114
-      Script: {instanceID: 17612}
+      Script: {instanceID: 17632}
     - Class: 114
-      Script: {instanceID: 17964}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18400}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 18470}
+      Script: {instanceID: 18490}
     - Class: 114
-      Script: {instanceID: 18604}
+      Script: {instanceID: 18624}
     - Class: 114
-      Script: {instanceID: 19126}
+      Script: {instanceID: 19146}
     - Class: 114
-      Script: {instanceID: 19860}
+      Script: {instanceID: 19880}
     - Class: 114
-      Script: {instanceID: 19904}
+      Script: {instanceID: 19924}
     - Class: 114
-      Script: {instanceID: 19958}
+      Script: {instanceID: 19978}
     - Class: 114
-      Script: {instanceID: 20012}
+      Script: {instanceID: 20032}
     - Class: 114
-      Script: {instanceID: 20158}
+      Script: {instanceID: 20178}
     - Class: 114
-      Script: {instanceID: 20176}
+      Script: {instanceID: 20196}
     - Class: 114
-      Script: {instanceID: 20254}
+      Script: {instanceID: 20656}
     - Class: 114
-      Script: {instanceID: 20636}
+      Script: {instanceID: 20662}
     - Class: 114
-      Script: {instanceID: 20642}
+      Script: {instanceID: 20724}
     - Class: 114
-      Script: {instanceID: 20704}
+      Script: {instanceID: 20818}
     - Class: 114
-      Script: {instanceID: 20798}
+      Script: {instanceID: 20896}
     - Class: 114
-      Script: {instanceID: 20876}
+      Script: {instanceID: 21244}
     - Class: 114
-      Script: {instanceID: 21224}
+      Script: {instanceID: 21296}
     - Class: 114
-      Script: {instanceID: 21276}
+      Script: {instanceID: 21368}
     - Class: 114
-      Script: {instanceID: 22082}
+      Script: {instanceID: 22104}
     - Class: 114
-      Script: {instanceID: 22944}
+      Script: {instanceID: 22966}
     - Class: 114
-      Script: {instanceID: 23006}
+      Script: {instanceID: 23028}
     - Class: 114
-      Script: {instanceID: 23138}
+      Script: {instanceID: 23160}
     - Class: 114
-      Script: {instanceID: 23312}
+      Script: {instanceID: 23334}
     - Class: 114
-      Script: {instanceID: 23490}
+      Script: {instanceID: 23512}
     - Class: 114
-      Script: {instanceID: 24114}
+      Script: {instanceID: 23852}
     - Class: 114
-      Script: {instanceID: 24182}
+      Script: {instanceID: 24136}
     - Class: 114
-      Script: {instanceID: 24418}
+      Script: {instanceID: 24204}
     - Class: 114
-      Script: {instanceID: 24504}
+      Script: {instanceID: 24440}
     - Class: 114
-      Script: {instanceID: 24738}
+      Script: {instanceID: 24528}
     - Class: 114
-      Script: {instanceID: 24808}
+      Script: {instanceID: 24762}
     - Class: 114
-      Script: {instanceID: 25408}
+      Script: {instanceID: 24832}
     - Class: 114
-      Script: {instanceID: 25452}
+      Script: {instanceID: 25432}
     - Class: 114
-      Script: {instanceID: 25638}
+      Script: {instanceID: 25476}
     - Class: 114
-      Script: {instanceID: 25882}
+      Script: {instanceID: 25662}
     - Class: 114
-      Script: {instanceID: 26174}
+      Script: {instanceID: 25906}
     - Class: 114
-      Script: {instanceID: 26302}
+      Script: {instanceID: 26198}
     - Class: 114
-      Script: {instanceID: 26372}
+      Script: {instanceID: 26326}
     - Class: 114
-      Script: {instanceID: 26382}
+      Script: {instanceID: 26396}
     - Class: 114
-      Script: {instanceID: 26464}
+      Script: {instanceID: 26406}
     - Class: 114
-      Script: {instanceID: 26570}
+      Script: {instanceID: 26488}
     - Class: 114
-      Script: {instanceID: 26706}
+      Script: {instanceID: 26594}
     - Class: 114
-      Script: {instanceID: 26958}
+      Script: {instanceID: 26730}
     - Class: 114
-      Script: {instanceID: 27704}
+      Script: {instanceID: 26982}
+    - Class: 114
+      Script: {instanceID: 27728}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Start.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 24502}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word01.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16868}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word02.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16870}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word03.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16862}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word04.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16856}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word05.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16866}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word06.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16858}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word07.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16852}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word08.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16860}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word09.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16864}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Version02/V02_Word10.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16854}
+    - Class: 114
+      Script: {instanceID: 16912}
+    - Class: 114
+      Script: {instanceID: 16914}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 20662}
+    - Class: 114
+      Script: {instanceID: 23334}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 25476}
+    - Class: 114
+      Script: {instanceID: 26396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -435,6 +1169,66 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 426cb5aec6fa1ad89788dcdf2b7e7c3a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W07
+  - hash:
+      serializedVersion: 2
+      Hash: 0b391bb0d42de76f904a2fbc10a9a5d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W10
+  - hash:
+      serializedVersion: 2
+      Hash: 246b729a120f52642e2783072626cbda
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W04
+  - hash:
+      serializedVersion: 2
+      Hash: 1d4c7555ee3bf5a1824aaf63a42777f5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W06
+  - hash:
+      serializedVersion: 2
+      Hash: decb70a5efe11a81b928f3d032254c9a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W08
+  - hash:
+      serializedVersion: 2
+      Hash: adca1998791ccf938ca0be3400ec2674
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W03
+  - hash:
+      serializedVersion: 2
+      Hash: 6828d6b317d5ddb461cc507330b2cc51
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W09
+  - hash:
+      serializedVersion: 2
+      Hash: 9a92238be35cb10d7954fac4bbe4488c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W05
+  - hash:
+      serializedVersion: 2
+      Hash: 804f6c582a20adca8348dea474e1b44c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W01
+  - hash:
+      serializedVersion: 2
+      Hash: 3682341922006cd16998bc9e6f10496a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GM_V02_W02
   - hash:
       serializedVersion: 2
       Hash: 7c3699b3b6f40f5a28ccaf8a3847076c
@@ -1079,6 +1873,12 @@ ScriptsOnlyBuild:
     className: ProbeVolume
   - hash:
       serializedVersion: 2
+      Hash: 40fa9c6e09cf133a9d1f42eb0136aea6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuV02
+  - hash:
+      serializedVersion: 2
       Hash: d2ecd94550edf1b56aff07b1f4e41c57
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1509,6 +2309,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: e8c655a7479449b5b2637e5e455f536e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StartV02
   - hash:
       serializedVersion: 2
       Hash: 5dc51b0140815ee83ba613dce32f5b12
@@ -1943,6 +2749,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 20
   scenePathNames:
-  - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/Level==Career_Readiness_Tools.unity
-  playerPath: N:/Video Game Projects/Github Game Projects/git/SchoolProjects/PRIMESTEM/PS_CA25_Game01/PS_CA25_Game01_WG/Builds/WebBuilds/WebBuild_Test_03
+  - Assets/Scenes/Version02/MainMenuV02.unity
+  - Assets/Scenes/Version02/V02_Start.unity
+  - Assets/Scenes/Version02/V02_Word01.unity
+  - Assets/Scenes/Version02/V02_Word02.unity
+  - Assets/Scenes/Version02/V02_Word03.unity
+  - Assets/Scenes/Version02/V02_Word04.unity
+  - Assets/Scenes/Version02/V02_Word05.unity
+  - Assets/Scenes/Version02/V02_Word06.unity
+  - Assets/Scenes/Version02/V02_Word07.unity
+  - Assets/Scenes/Version02/V02_Word08.unity
+  - Assets/Scenes/Version02/V02_Word09.unity
+  - Assets/Scenes/Version02/V02_Word10.unity
+  playerPath: C:/Users/je425824/git/PS_CA25_Game01/PS_CA25_Game01_WG/Builds/Version02/V02_WebBuilds/V02_WebBuild_02B

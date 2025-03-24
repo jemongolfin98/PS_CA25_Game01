@@ -45,6 +45,7 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
 struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
 struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
@@ -66,6 +67,13 @@ struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1;
+struct GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1;
+struct GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E;
+struct GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7;
+struct GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F;
+struct GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7;
+struct GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C;
 struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
@@ -95,17 +103,21 @@ struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
-struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE;
+struct U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E;
+struct U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426;
+struct U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B;
+struct U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8;
+struct U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F;
+struct U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796;
 struct U3CStartCountdownU3Ed__60_t24C1A0A06A35D2C89AC4FDFA3FD8D2424B450B49;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 
 IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
@@ -116,27 +128,44 @@ IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF73069
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__60_t24C1A0A06A35D2C89AC4FDFA3FD8D2424B450B49_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5AC9A102C660C50B46A2458060FDE81AD373E5614F2C59238E44B184D4C32548_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____BE387A01F460D8E5ACE49490131BB03E1B6163F7A48154FA8C750F7D60413FEC_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719;
+IL2CPP_EXTERN_C String_t* _stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A0F04B7C8C75432B883350C7C57328463F50634;
 IL2CPP_EXTERN_C String_t* _stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43;
+IL2CPP_EXTERN_C String_t* _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74;
+IL2CPP_EXTERN_C String_t* _stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4;
+IL2CPP_EXTERN_C String_t* _stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D;
 IL2CPP_EXTERN_C String_t* _stringLiteral3394348642CBB72AFFBFAD42A79EC9FCC6D96F48;
 IL2CPP_EXTERN_C String_t* _stringLiteral39FA31FA5B4BE313DE4D7388749C489A5188F195;
 IL2CPP_EXTERN_C String_t* _stringLiteral40C84B24081AACD1DFE370E7FB6D342B6084CF76;
 IL2CPP_EXTERN_C String_t* _stringLiteral45499CD72126EF97B1CD4C5352817D24757A0592;
 IL2CPP_EXTERN_C String_t* _stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D;
+IL2CPP_EXTERN_C String_t* _stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4;
+IL2CPP_EXTERN_C String_t* _stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092;
 IL2CPP_EXTERN_C String_t* _stringLiteral5BCDF40A96AEBD3A707FF35400448118082A36B9;
 IL2CPP_EXTERN_C String_t* _stringLiteral5C5330853C6FADF88DC71D9FD89B310C3B78F374;
+IL2CPP_EXTERN_C String_t* _stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819;
 IL2CPP_EXTERN_C String_t* _stringLiteral60D5801B3DE1545126B373152DA0C17EB568D85F;
 IL2CPP_EXTERN_C String_t* _stringLiteral6321937EBA5C9DC32AACDF099068A0C6380A14BF;
 IL2CPP_EXTERN_C String_t* _stringLiteral6655DBAF39AB0EF5813846A4E6DB765D59DE5F7B;
+IL2CPP_EXTERN_C String_t* _stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6D68DD9FFB9FCDA3E7B4E3597E0F86AC1EAFF65D;
 IL2CPP_EXTERN_C String_t* _stringLiteral73E81277D5C813CF0FCE5E9B2683B0BBC84517B8;
+IL2CPP_EXTERN_C String_t* _stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8;
+IL2CPP_EXTERN_C String_t* _stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380;
 IL2CPP_EXTERN_C String_t* _stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1;
+IL2CPP_EXTERN_C String_t* _stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9;
 IL2CPP_EXTERN_C String_t* _stringLiteral9E5276BC0837B816E809EA494EBB324DAC3F5A56;
 IL2CPP_EXTERN_C String_t* _stringLiteralADB72F63E7A1E9E57E52CBCF2728EE5853FFC73B;
+IL2CPP_EXTERN_C String_t* _stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966;
 IL2CPP_EXTERN_C String_t* _stringLiteralB335CE9B647270562F11DF80933CCBEA950BE183;
 IL2CPP_EXTERN_C String_t* _stringLiteralD1E068B2A982B318954B3CCFBD9044C06F22ACEF;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
@@ -152,12 +181,18 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFE02D8579B01D16F02759161BE5D36AAB2F6BF2B
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__60_System_Collections_IEnumerator_Reset_m3AFDED6E8AF560FDF99E59733D00351420372677_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m43B0C73B49EF5DF382A10C04365CEFB2D73D1031_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m60388293F95FCA29A753105D56618D572BDF1103_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m7DB86260F8E2BF70303E900AB476548BB18567E5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mABD76566B787F9270901F038A2C45E19CEC15F73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mCAC7E9D3FF3951E315BE3830A0EC952EF53D7DF4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mCE9DAE748A4C05205A7C21AB56E60CFFE6E46AA7_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
 struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
-struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 
 IL2CPP_EXTERN_C_BEGIN
@@ -171,16 +206,10 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
 {
 };
-struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
-{
-};
 struct String_t  : public RuntimeObject
 {
 	int32_t ____stringLength;
 	Il2CppChar ____firstChar;
-};
-struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
-{
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -199,6 +228,55 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 };
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
+};
+struct U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* ___U3CU3E4__this;
+	float ___countdownValue;
+};
+struct U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* ___U3CU3E4__this;
+	float ___countdownValue;
+};
+struct U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* ___U3CU3E4__this;
+	float ___countdownValue;
+};
+struct U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* ___U3CU3E4__this;
+	float ___countdownValue;
+};
+struct U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* ___U3CU3E4__this;
+	float ___countdownValue;
+};
+struct U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* ___U3CU3E4__this;
+	float ___countdownValue;
+};
+struct U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* ___U3CU3E4__this;
+	float ___countdownValue;
 };
 struct U3CStartCountdownU3Ed__60_t24C1A0A06A35D2C89AC4FDFA3FD8D2424B450B49  : public RuntimeObject
 {
@@ -237,10 +315,6 @@ struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
-};
-struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
-{
-	uint8_t ___m_value;
 };
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
 {
@@ -458,36 +532,6 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 {
 	float ___m_Seconds;
 };
-#pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D31_tE44051BE525F2D625C20B8148059BC228833DBDD 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D31_tE44051BE525F2D625C20B8148059BC228833DBDD__padding[31];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D73_t29048B60D3208700B953603132E78DF191D9E76E 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D73_t29048B60D3208700B953603132E78DF191D9E76E__padding[73];
-	};
-};
-#pragma pack(pop, tp)
 struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
 {
 	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
@@ -523,30 +567,6 @@ struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_
 {
 	Il2CppSafeArray* ___m_Array;
 	int32_t ___m_Count;
-};
-struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
-	int32_t ___TotalTypes;
-	int32_t ___TotalFiles;
-	bool ___IsEditorOnly;
-};
-struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
-{
-	Il2CppSafeArray* ___FilePathsData;
-	Il2CppSafeArray* ___TypesData;
-	int32_t ___TotalTypes;
-	int32_t ___TotalFiles;
-	int32_t ___IsEditorOnly;
-};
-struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
-{
-	Il2CppSafeArray* ___FilePathsData;
-	Il2CppSafeArray* ___TypesData;
-	int32_t ___TotalTypes;
-	int32_t ___TotalFiles;
-	int32_t ___IsEditorOnly;
 };
 struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
 {
@@ -680,10 +700,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
 {
 	intptr_t ___m_Ptr;
-};
-struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
-{
-	intptr_t ___value;
 };
 struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
 {
@@ -1013,6 +1029,510 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
 };
+struct GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
+struct GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
+struct GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
+struct GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
+struct GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
+struct GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
+struct GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___center;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startGamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___nextWordButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gamePanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___hintPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___successPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___failPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausedPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed01;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed02;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___letterGuessed03;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___guessesLeftText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___hintText;
+	String_t* ___wordToGuess;
+	int32_t ___lengthOfWordToGuess;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___lettersToGuess;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___lettersGuessed;
+	int32_t ___randomNumber;
+	int32_t ___guessesLeft;
+	int32_t ___wordCounter;
+	int32_t ___word01Done1;
+	int32_t ___word02Done1;
+	int32_t ___word03Done1;
+	int32_t ___word04Done1;
+	int32_t ___word05Done1;
+	int32_t ___word06Done1;
+	int32_t ___word07Done1;
+	int32_t ___word08Done1;
+	int32_t ___word09Done1;
+	int32_t ___word10Done1;
+	int32_t ___word11Done1;
+	int32_t ___word12Done1;
+	int32_t ___word13Done1;
+	int32_t ___word14Done1;
+	int32_t ___word15Done1;
+	int32_t ___word16Done1;
+	int32_t ___word17Done1;
+	int32_t ___word18Done1;
+	int32_t ___word19Done1;
+	int32_t ___word20Done1;
+	bool ___word01Completed;
+	bool ___word02Completed;
+	bool ___word03Completed;
+	bool ___word04Completed;
+	bool ___word05Completed;
+	bool ___word06Completed;
+	bool ___word07Completed;
+	bool ___word08Completed;
+	bool ___word09Completed;
+	bool ___word10Completed;
+	bool ___word11Completed;
+	bool ___word12Completed;
+	bool ___word13Completed;
+	bool ___word14Completed;
+	bool ___word15Completed;
+	bool ___word16Completed;
+	bool ___word17Completed;
+	bool ___word18Completed;
+	bool ___word19Completed;
+	bool ___word20Completed;
+	bool ___wrongLetterGuessed;
+	int32_t ___timeLeft;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeLeftText;
+	float ___currCountdownValue;
+	bool ___wordGuessed;
+	int32_t ___lettersCorrect;
+};
 struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___letter;
@@ -1306,11 +1826,6 @@ struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGrap
 	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
 	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
 };
-struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
-{
-	__StaticArrayInitTypeSizeU3D73_t29048B60D3208700B953603132E78DF191D9E76E ___5AC9A102C660C50B46A2458060FDE81AD373E5614F2C59238E44B184D4C32548;
-	__StaticArrayInitTypeSizeU3D31_tE44051BE525F2D625C20B8148059BC228833DBDD ___BE387A01F460D8E5ACE49490131BB03E1B6163F7A48154FA8C750F7D60413FEC;
-};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -1438,6 +1953,40 @@ struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4  : public Runtime
 		m_Items[index] = value;
 	}
 };
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
 {
 	ALIGN_FIELD (8) String_t* m_Items[1];
@@ -1472,38 +2021,6 @@ struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeA
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
-struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
-{
-	ALIGN_FIELD (8) uint8_t m_Items[1];
-
-	inline uint8_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
-	{
-		m_Items[index] = value;
-	}
-};
 
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
@@ -1513,7 +2030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434 (int32_t ___0_key, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
@@ -1523,6 +2039,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToUpper_m5F499BC30C2A5F5C962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46 (String_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameManager_StartCountdown_mF76DE16ABABD4FDCF34A6A121CCE384E73440EB6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* GameObject_FindGameObjectsWithTag_mB8AA805DA664EF0221BB338446014F662771B4E3 (String_t* ___0_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
@@ -1532,6 +2050,7 @@ inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_
 	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) ;
 inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
@@ -1560,7 +2079,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_InitGame_m545D5C89837EA34655F65C408447939C8093C6B8 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_InitLetters_m87864FBA6530E46BE2623169A8E3EFC0D33EF401 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard3a1_mD7E01B6C1117C08F6B59A43BCB563158A8B802E1 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W01_StartCountdown_m6C07B06519E73534C0F3AE1FB75367B2BD8D201F (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_PlayNextLevel_m9CD826238E6815B8E6D328742163B791BAFB1C21 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_NextWord02_mF63445774DF32CF9B78E5129B45F1FA99CB3321A (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m49148645F69CE13FF589AA41D6AC33398BDC8460 (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_InitGame_m1D8158583ACF825D6E8C1080CC49C818BE681AAA (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_InitLetters_mBF63B2AD577252111AEC8ED06F405F556F19BC12 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard3a1_m6BC00665B0AF66C6825CA977E4F6336C0A26BDAF (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W02_StartCountdown_mC74D86F6D9BD0D15DD536078D9666FE23C4C0B2C (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_PlayNextLevel_mF7413CDE7BE901EC49F53DD1345EDABDE240A3AB (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_NextWord02_m83AEEAF9B92789622884BA12C7473F2AC5F70D05 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m41239A3161A2D116DB4498CFE8360937AE06D9D3 (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_InitGame_m2BE312B9F0BD463B4CABCABBFBDF5DA162DDEE3D (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_InitLetters_m29F52EA05D9A8ADEE5B476357015196A476784D5 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard3a1_mB8A79B13B45215166D702A5F197BBF8F65B2D402 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W03_StartCountdown_mFBA27567724E3F94871FD38B3A7B37A3A936460C (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_PlayNextLevel_m529FF6363FCF43A2335D3DFCE0F453D06EC7D1B4 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_NextWord02_m1083F0BBFC728054600C583873B8138A37755DEA (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m7C77F3A423B2007360880B57EABCE3A6E5412C8B (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_InitGame_mE0DC8A1E2F0826F779AEEEEE6E35A4EDFC4D50C2 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_InitLetters_m648CF1C7FDEBF45A061DD35E74E9C0FEFC3A58D0 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard3a1_mA816FCD753A90F9ACA39F8071265F6EF4098E74E (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W04_StartCountdown_m774FDC2D961EAF6EACC6B3BF4679EF2BA16F3302 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_PlayNextLevel_mF55515A612D984020DFFAB9F24520107B2B25FAD (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_NextWord02_mEF2E3C2B5297DAD7E73BAFD5CE044C16CF8C86CE (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_mE491E6A499B8C1C6912A51973F77C606BD483813 (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_InitGame_m505B0DEF93818B49DF18506B2F47DD6634B05734 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_InitLetters_mF0D4509FCDF1A08AAFBE9EB6BA32E3F0EB9C10F0 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard3a1_m0255CB98343A1C890F60EF74EB7CB126314AEAE3 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W05_StartCountdown_mA46E07F0612C94F6E4490753E157E26D1185EA7D (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_PlayNextLevel_m7207FE9F6E2BE29232087339B0F9E472CC0E5271 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_NextWord02_m96BB6AFFFC28310DF08C42673B7F9E701034455D (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_mE405E4A81A94CDC69A3453AFB08FD7A45C519BB1 (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_InitGame_mAFBF1E4E88DBD049B65BFC139BA06AF34C9855F7 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_InitLetters_mB55ABC1F98E7D9AE20822CDE3681D442992CE861 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard3a1_m7870BF8DFB75585DC2BF80142022124302F4C8CB (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W06_StartCountdown_m2F9B0827CF1026794FFE769E03BE35594BEFCFD9 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_PlayNextLevel_mBD5C008DD328BB63631CB7BB20F518958D0CD6D1 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_NextWord02_mFC8FEB3B7F75E351FF299CA5F97E327EAD57722D (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m79302ACEFC6F0354DB6260FE8945AC8AE417E063 (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_InitGame_m09F029BF0B2BB711ABB4ABD4CE7B355B1F4DF34C (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_InitLetters_mAB5B14CEC48C4483C487E874AEE5C78F622FC787 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard3a1_m19FFCA55CC6A51CF21A0D4AEAB309C4F3E4E03C4 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W07_StartCountdown_m6BF1F756731D6408E9DE9A2ACE9F7D8E8F8119C2 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, float ___0_countdownValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_PlayNextLevel_mE1B840F9D37F64FF82AB38FA442A70600B31D8AE (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_NextWord02_m43571A59BAB0A012ACD5AC2DDAF116D6CF9AA755 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m960A3E9F70B8FFBA398F5F92E551909F201DBC25 (U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1601,7 +2168,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0A0F04B7C8C75432B883350C7C57328463F50634);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral40C84B24081AACD1DFE370E7FB6D342B6084CF76);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BCDF40A96AEBD3A707FF35400448118082A36B9);
@@ -1610,18 +2176,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB335CE9B647270562F11DF80933CCBEA950BE183);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD1E068B2A982B318954B3CCFBD9044C06F22ACEF);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDD0DBAA81894DDA2C040A821CD9B373A88C6174F);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE846163016A5B8A8223D479E68114AFFD5B16BD3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBE0F593A2E476E659387E6C9F35A9D4116B04AC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE02D8579B01D16F02759161BE5D36AAB2F6BF2B);
 		s_Il2CppMethodInitialized = true;
 	}
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
-	int32_t V_4 = 0;
+	int32_t V_0 = 0;
 	{
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
 		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
@@ -1633,7 +2194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		int32_t L_4 = __this->___timeLeft;
 		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
 		{
-			goto IL_0047;
+			goto IL_0044;
 		}
 	}
 	{
@@ -1641,22 +2202,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		goto IL_00d0;
+		goto IL_009b;
 	}
 
-IL_0047:
+IL_0044:
 	{
 		int32_t L_7 = __this->___timeLeft;
 		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
 		{
-			goto IL_0074;
+			goto IL_0071;
 		}
 	}
 	{
 		int32_t L_8 = __this->___timeLeft;
 		if ((((int32_t)L_8) < ((int32_t)1)))
 		{
-			goto IL_0074;
+			goto IL_0071;
 		}
 	}
 	{
@@ -1664,270 +2225,204 @@ IL_0047:
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		goto IL_00d0;
+		goto IL_009b;
 	}
 
-IL_0074:
+IL_0071:
 	{
 		int32_t L_11 = __this->___timeLeft;
 		if (L_11)
 		{
-			goto IL_00d0;
+			goto IL_009b;
 		}
 	}
 	{
-		V_1 = 0;
-		goto IL_008b;
-	}
-
-IL_0080:
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = V_0;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
-		int32_t L_13 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
-	}
-
-IL_008b:
-	{
-		int32_t L_14 = V_1;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
-		String_t* L_15;
-		L_15 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
-		String_t* L_16;
-		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_15, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
-		L_17 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_16, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = L_17;
-		V_0 = L_18;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_19;
-		L_19 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_18, NULL);
-		if (L_19)
-		{
-			goto IL_0080;
-		}
-	}
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___failPanel;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___gamePanel;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
 	}
 
-IL_00d0:
+IL_009b:
 	{
-		int32_t L_22 = __this->___randomNumber;
-		V_2 = L_22;
-		int32_t L_23 = V_2;
-		switch (L_23)
+		int32_t L_14 = __this->___randomNumber;
+		V_0 = L_14;
+		int32_t L_15 = V_0;
+		switch (L_15)
 		{
 			case 0:
 			{
-				goto IL_010a;
+				goto IL_00d5;
 			}
 			case 1:
 			{
-				goto IL_011f;
+				goto IL_00ea;
 			}
 			case 2:
 			{
-				goto IL_0134;
+				goto IL_00ff;
 			}
 			case 3:
 			{
-				goto IL_0146;
+				goto IL_0111;
 			}
 			case 4:
 			{
-				goto IL_0158;
+				goto IL_0123;
 			}
 			case 5:
 			{
-				goto IL_016a;
+				goto IL_0135;
 			}
 			case 6:
 			{
-				goto IL_017c;
+				goto IL_0147;
 			}
 			case 7:
 			{
-				goto IL_018e;
+				goto IL_0159;
 			}
 			case 8:
 			{
-				goto IL_01a0;
+				goto IL_016b;
 			}
 			case 9:
 			{
-				goto IL_01b2;
+				goto IL_017d;
 			}
 		}
 	}
 	{
-		goto IL_01c2;
+		goto IL_018d;
 	}
 
-IL_010a:
+IL_00d5:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_16 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_16, _stringLiteral40C84B24081AACD1DFE370E7FB6D342B6084CF76);
+		goto IL_018d;
+	}
+
+IL_00ea:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_17 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_17, _stringLiteral5BCDF40A96AEBD3A707FF35400448118082A36B9);
+		goto IL_018d;
+	}
+
+IL_00ff:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_18 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_18, _stringLiteral6655DBAF39AB0EF5813846A4E6DB765D59DE5F7B);
+		goto IL_018d;
+	}
+
+IL_0111:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_19 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_19, _stringLiteralDD0DBAA81894DDA2C040A821CD9B373A88C6174F);
+		goto IL_018d;
+	}
+
+IL_0123:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_20 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_20, _stringLiteral0A0F04B7C8C75432B883350C7C57328463F50634);
+		goto IL_018d;
+	}
+
+IL_0135:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_21 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, _stringLiteralD1E068B2A982B318954B3CCFBD9044C06F22ACEF);
+		goto IL_018d;
+	}
+
+IL_0147:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_22, _stringLiteralFBE0F593A2E476E659387E6C9F35A9D4116B04AC);
+		goto IL_018d;
+	}
+
+IL_0159:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, _stringLiteralFE02D8579B01D16F02759161BE5D36AAB2F6BF2B);
+		goto IL_018d;
+	}
+
+IL_016b:
 	{
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, _stringLiteral40C84B24081AACD1DFE370E7FB6D342B6084CF76);
-		goto IL_01c2;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, _stringLiteralE846163016A5B8A8223D479E68114AFFD5B16BD3);
+		goto IL_018d;
 	}
 
-IL_011f:
+IL_017d:
 	{
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, _stringLiteral5BCDF40A96AEBD3A707FF35400448118082A36B9);
-		goto IL_01c2;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, _stringLiteralB335CE9B647270562F11DF80933CCBEA950BE183);
 	}
 
-IL_0134:
+IL_018d:
 	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_26 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_26, _stringLiteral6655DBAF39AB0EF5813846A4E6DB765D59DE5F7B);
-		goto IL_01c2;
-	}
-
-IL_0146:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_27 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_27, _stringLiteralDD0DBAA81894DDA2C040A821CD9B373A88C6174F);
-		goto IL_01c2;
-	}
-
-IL_0158:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_28 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_28, _stringLiteral0A0F04B7C8C75432B883350C7C57328463F50634);
-		goto IL_01c2;
-	}
-
-IL_016a:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_29 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_29, _stringLiteralD1E068B2A982B318954B3CCFBD9044C06F22ACEF);
-		goto IL_01c2;
-	}
-
-IL_017c:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_30 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_30, _stringLiteralFBE0F593A2E476E659387E6C9F35A9D4116B04AC);
-		goto IL_01c2;
-	}
-
-IL_018e:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, _stringLiteralFE02D8579B01D16F02759161BE5D36AAB2F6BF2B);
-		goto IL_01c2;
-	}
-
-IL_01a0:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, _stringLiteralE846163016A5B8A8223D479E68114AFFD5B16BD3);
-		goto IL_01c2;
-	}
-
-IL_01b2:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___hintText;
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, _stringLiteralB335CE9B647270562F11DF80933CCBEA950BE183);
-	}
-
-IL_01c2:
-	{
-		bool L_34 = __this->___wordGuessed;
-		if (!L_34)
+		bool L_26 = __this->___wordGuessed;
+		if (!L_26)
 		{
-			goto IL_0224;
+			goto IL_01b9;
 		}
 	}
 	{
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___successPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_27, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
+		goto IL_01c5;
+	}
+
+IL_01b9:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)0, NULL);
+	}
+
+IL_01c5:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_30 = __this->___guessesLeftText;
+		int32_t* L_31 = (int32_t*)(&__this->___guessesLeft);
+		String_t* L_32;
+		L_32 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_31, NULL);
+		String_t* L_33;
+		L_33 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral5C5330853C6FADF88DC71D9FD89B310C3B78F374, L_32, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_30, L_33);
+		int32_t L_34 = __this->___wordCounter;
+		if ((((int32_t)L_34) >= ((int32_t)((int32_t)9))))
+		{
+			goto IL_01fd;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___nextWordButton;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)1, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___gamePanel;
+		goto IL_0209;
+	}
+
+IL_01fd:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___nextWordButton;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)0, NULL);
-		V_4 = 0;
-		goto IL_01fe;
 	}
 
-IL_01f1:
+IL_0209:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = V_3;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_37, (bool)0, NULL);
-		int32_t L_38 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_38, 1));
-	}
-
-IL_01fe:
-	{
-		int32_t L_39 = V_4;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_39, 1));
-		String_t* L_40;
-		L_40 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
-		String_t* L_41;
-		L_41 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_40, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42;
-		L_42 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_41, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = L_42;
-		V_3 = L_43;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_44;
-		L_44 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_43, NULL);
-		if (L_44)
+		bool L_37;
+		L_37 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_37)
 		{
-			goto IL_01f1;
-		}
-	}
-	{
-		goto IL_0230;
-	}
-
-IL_0224:
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = __this->___successPanel;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_45, (bool)0, NULL);
-	}
-
-IL_0230:
-	{
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_46 = __this->___guessesLeftText;
-		int32_t* L_47 = (int32_t*)(&__this->___guessesLeft);
-		String_t* L_48;
-		L_48 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_47, NULL);
-		String_t* L_49;
-		L_49 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral5C5330853C6FADF88DC71D9FD89B310C3B78F374, L_48, NULL);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_46, L_49);
-		int32_t L_50 = __this->___wordCounter;
-		if ((((int32_t)L_50) >= ((int32_t)((int32_t)9))))
-		{
-			goto IL_0268;
-		}
-	}
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = __this->___nextWordButton;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_51, (bool)1, NULL);
-		goto IL_0274;
-	}
-
-IL_0268:
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = __this->___nextWordButton;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_52, (bool)0, NULL);
-	}
-
-IL_0274:
-	{
-		bool L_53;
-		L_53 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
-		if (!L_53)
-		{
-			goto IL_0282;
+			goto IL_0217;
 		}
 	}
 	{
@@ -1935,7 +2430,7 @@ IL_0274:
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
 	}
 
-IL_0282:
+IL_0217:
 	{
 		GameManager_CheckKeyboard2a1_mB2B3D942AE74BAB49B097C20DE348BC03AF3413E(__this, NULL);
 		return;
@@ -1987,78 +2482,115 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_InitLetters_m6F3A1288D839C03
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
 	int32_t V_1 = 0;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
-	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_2 = 0;
 	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
 	{
-		int32_t L_0 = __this->___lengthOfWordToGuess;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0;
+		L_0 = GameObject_FindGameObjectsWithTag_mB8AA805DA664EF0221BB338446014F662771B4E3(_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
 		V_0 = L_0;
-		V_1 = 0;
-		goto IL_00af;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
+		V_1 = ((int32_t)(((RuntimeArray*)L_1)->max_length));
+		V_3 = 0;
+		goto IL_001f;
 	}
 
-IL_000e:
+IL_0013:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
-		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
-		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
-		float L_4 = L_3.___x;
-		int32_t L_5 = V_1;
-		int32_t L_6 = V_0;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
-		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
-		float L_10 = L_9.___y;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
-		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
-		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
-		float L_14 = L_13.___z;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
-		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = V_0;
+		int32_t L_3 = V_3;
+		int32_t L_4 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
-		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
-		int32_t L_20 = V_1;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
-		String_t* L_21;
-		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
-		String_t* L_22;
-		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
-		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
-		L_23 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_19, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
-		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
-		L_25 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_24, NULL);
-		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_23, L_25, NULL);
-		int32_t L_26 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_5, NULL);
+		int32_t L_6 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
-IL_00af:
+IL_001f:
 	{
-		int32_t L_27 = V_1;
-		int32_t L_28 = V_0;
-		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		int32_t L_7 = V_3;
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)L_8)))
 		{
-			goto IL_000e;
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_9 = __this->___lengthOfWordToGuess;
+		V_2 = L_9;
+		V_4 = 0;
+		goto IL_00e4;
+	}
+
+IL_0032:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		float L_13 = L_12.___x;
+		int32_t L_14 = V_4;
+		int32_t L_15 = V_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
+		L_17 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_16, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
+		float L_19 = L_18.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_21, NULL);
+		float L_23 = L_22.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), ((float)il2cpp_codegen_add(L_13, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_14), ((float)(((float)L_15)/(2.5f))))), (50.0f))))), L_19, L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_5;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
+		L_26 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
+		L_27 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_24, L_25, L_26, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27;
+		int32_t L_29 = V_4;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+		String_t* L_30;
+		L_30 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_6), NULL);
+		String_t* L_31;
+		L_31 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_30, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_28, L_31, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = L_28;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_32, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
+		L_33 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_32, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
+		L_34 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
+		L_35 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_34, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_33, L_35, NULL);
+		int32_t L_36 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00e4:
+	{
+		int32_t L_37 = V_4;
+		int32_t L_38 = V_2;
+		if ((((int32_t)L_37) < ((int32_t)L_38)))
+		{
+			goto IL_0032;
 		}
 	}
 	{
@@ -3151,10 +3683,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NextWord_mE2B055AA9ACCFA5A85
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___gamePanel;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		__this->___wordToGuess = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		__this->___timeLeft = ((int32_t)60);
+		__this->___lengthOfWordToGuess = 0;
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		__this->___timeLeft = ((int32_t)60);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___letterGuessed01;
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___hintButton;
@@ -3171,110 +3702,110 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NextWord_mE2B055AA9ACCFA5A85
 		{
 			case 0:
 			{
-				goto IL_00a9;
+				goto IL_00a5;
 			}
 			case 1:
 			{
-				goto IL_00b2;
+				goto IL_00ae;
 			}
 			case 2:
 			{
-				goto IL_00bb;
+				goto IL_00b7;
 			}
 			case 3:
 			{
-				goto IL_00c4;
+				goto IL_00c0;
 			}
 			case 4:
 			{
-				goto IL_00cd;
+				goto IL_00c9;
 			}
 			case 5:
 			{
-				goto IL_00d6;
+				goto IL_00d2;
 			}
 			case 6:
 			{
-				goto IL_00df;
+				goto IL_00db;
 			}
 			case 7:
 			{
-				goto IL_00e8;
+				goto IL_00e4;
 			}
 			case 8:
 			{
-				goto IL_00f1;
+				goto IL_00ed;
 			}
 			case 9:
 			{
-				goto IL_00fa;
+				goto IL_00f6;
 			}
 		}
 	}
 	{
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00a9:
+IL_00a5:
 	{
 		__this->___word0Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00b2:
+IL_00ae:
 	{
 		__this->___word1Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00bb:
+IL_00b7:
 	{
 		__this->___word2Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00c4:
+IL_00c0:
 	{
 		__this->___word3Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00cd:
+IL_00c9:
 	{
 		__this->___word4Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00d6:
+IL_00d2:
 	{
 		__this->___word5Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00df:
+IL_00db:
 	{
 		__this->___word6Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00e8:
+IL_00e4:
 	{
 		__this->___word7Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00f1:
+IL_00ed:
 	{
 		__this->___word8Completed = (bool)1;
-		goto IL_0101;
+		goto IL_00fd;
 	}
 
-IL_00fa:
+IL_00f6:
 	{
 		__this->___word9Completed = (bool)1;
 	}
 
-IL_0101:
+IL_00fd:
 	{
 		GameManager_ChooseWord01_m95A9661398F1ED68D4251F597C22ADD51F0BB45E(__this, NULL);
 		return;
@@ -3293,14 +3824,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RepeatWord_mC1EC40C9D273D77D
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___gamePanel;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		__this->___lengthOfWordToGuess = 0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = __this->___wordsToGuess;
 		int32_t L_3 = __this->___randomNumber;
 		int32_t L_4 = L_3;
 		String_t* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
 		__this->___wordToGuess = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_5);
-		__this->___timeLeft = ((int32_t)60);
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		__this->___timeLeft = ((int32_t)60);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___letterGuessed01;
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___hintButton;
@@ -3639,7 +4171,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)9)), (String_t*)_stringLiteral39FA31FA5B4BE313DE4D7388749C489A5188F195);
 		__this->___wordsToGuess = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordsToGuess), (void*)L_10);
-		__this->___timeLeft = ((int32_t)60);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -3840,43 +4371,2055 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu__ctor_m8209CEC1D907C87A96D77796
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_Start_mFB908590475897FC00EBB844E3594E6AB0CCC517 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5AC9A102C660C50B46A2458060FDE81AD373E5614F2C59238E44B184D4C32548_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____BE387A01F460D8E5ACE49490131BB03E1B6163F7A48154FA8C750F7D60413FEC_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
-	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
-	memset((&V_0), 0, sizeof(V_0));
 	{
-		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)73));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5AC9A102C660C50B46A2458060FDE81AD373E5614F2C59238E44B184D4C32548_FieldInfo_var) };
-		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
-		(&V_0)->___FilePathsData = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)31));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____BE387A01F460D8E5ACE49490131BB03E1B6163F7A48154FA8C750F7D60413FEC_FieldInfo_var) };
-		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
-		(&V_0)->___TypesData = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = 2;
-		(&V_0)->___TotalTypes = 2;
-		(&V_0)->___IsEditorOnly = (bool)0;
-		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
-		return L_6;
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W01_InitGame_m545D5C89837EA34655F65C408447939C8093C6B8(__this, NULL);
+		GM_V02_W01_InitLetters_m87864FBA6530E46BE2623169A8E3EFC0D33EF401(__this, NULL);
+		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_Update_m9A74C399DED78B6BCBBD8492E1B09C48DF5A950C (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral40C84B24081AACD1DFE370E7FB6D342B6084CF76);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word01Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral40C84B24081AACD1DFE370E7FB6D342B6084CF76);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word01Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W01_CheckKeyboard3a1_mD7E01B6C1117C08F6B59A43BCB563158A8B802E1(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_InitGame_m545D5C89837EA34655F65C408447939C8093C6B8 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W01_StartCountdown_m6C07B06519E73534C0F3AE1FB75367B2BD8D201F(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_InitLetters_m87864FBA6530E46BE2623169A8E3EFC0D33EF401 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard_m3A6E945DF194B59153CB94159C7E2E2F57CC3448 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard2_m398A34E497624AF462252B2B22163B72C34456DC (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard2a_m87D29E283AFB1D1586A419081CBBBE489594CAD3 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard2a1_mBCF599344A3A55CD347300693AEC740B7985E940 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard3_m9E47FDD9794BB2348F0B0058853BD5926A37EA13 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard3a_m1E07F0B92EED6316ACED68BBD2C5C64FBE09B731 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_CheckKeyboard3a1_mD7E01B6C1117C08F6B59A43BCB563158A8B802E1 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_NextWord01_m9B59987FF0995B3680A58191DD99B8232DA7E8D2 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_NextWord02_mF63445774DF32CF9B78E5129B45F1FA99CB3321A (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
 {
 	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W01_PlayNextLevel_m9CD826238E6815B8E6D328742163B791BAFB1C21(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_PlayNextLevel_m9CD826238E6815B8E6D328742163B791BAFB1C21 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->___randomNumber;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		bool L_1 = __this->___word01Completed;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		int32_t L_2 = __this->___randomNumber;
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_3 = __this->___word02Completed;
+		if (L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0038:
+	{
+		int32_t L_4 = __this->___randomNumber;
+		if ((!(((uint32_t)L_4) == ((uint32_t)3))))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		bool L_5 = __this->___word03Completed;
+		if (L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0054:
+	{
+		int32_t L_6 = __this->___randomNumber;
+		if ((!(((uint32_t)L_6) == ((uint32_t)4))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		bool L_7 = __this->___word04Completed;
+		if (L_7)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_0070:
+	{
+		int32_t L_8 = __this->___randomNumber;
+		if ((!(((uint32_t)L_8) == ((uint32_t)5))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		bool L_9 = __this->___word05Completed;
+		if (L_9)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_008c:
+	{
+		int32_t L_10 = __this->___randomNumber;
+		if ((!(((uint32_t)L_10) == ((uint32_t)6))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		bool L_11 = __this->___word06Completed;
+		if (L_11)
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00a8:
+	{
+		int32_t L_12 = __this->___randomNumber;
+		if ((!(((uint32_t)L_12) == ((uint32_t)7))))
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		bool L_13 = __this->___word07Completed;
+		if (L_13)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00c4:
+	{
+		int32_t L_14 = __this->___randomNumber;
+		if ((!(((uint32_t)L_14) == ((uint32_t)8))))
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		bool L_15 = __this->___word08Completed;
+		if (L_15)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00e0:
+	{
+		int32_t L_16 = __this->___randomNumber;
+		if ((!(((uint32_t)L_16) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		bool L_17 = __this->___word09Completed;
+		if (L_17)
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_00fd:
+	{
+		int32_t L_18 = __this->___randomNumber;
+		if ((!(((uint32_t)L_18) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		bool L_19 = __this->___word10Completed;
+		if (L_19)
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_011a:
+	{
+		GM_V02_W01_NextWord02_mF63445774DF32CF9B78E5129B45F1FA99CB3321A(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_RepeatWord_m932F35D53E1A61815A2EBD52D0B0A9D2E9004D01 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_PausedGame_m5D8942798D90231CEF236971038B95D80A5E541B (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_UnPausedGame_m756F5E7E59765005817479FF6A99022831C11470 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_FreeHint_m2FBA78590CD05975DB11F077EE9C27E52C964978 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_ToMainMenu_mEA073C312F31F8D79F2EBD48CBEB7D8F4D103BEC (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W01_StartCountdown_m6C07B06519E73534C0F3AE1FB75367B2BD8D201F (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* L_0 = (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_m49148645F69CE13FF589AA41D6AC33398BDC8460(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_WordChecker_m6B486639839C2047E122F586313B63CEB0CBA422 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01_StartGame_mD8F34EDC9EB7A030867591367E20A2D5060279D8 (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___startGamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		GM_V02_W01_InitGame_m545D5C89837EA34655F65C408447939C8093C6B8(__this, NULL);
+		GM_V02_W01_InitLetters_m87864FBA6530E46BE2623169A8E3EFC0D33EF401(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W01__ctor_mD8C8ADF6501BBD78160E8C23C7BFC5E26E3EAEFC (GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral60D5801B3DE1545126B373152DA0C17EB568D85F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteral60D5801B3DE1545126B373152DA0C17EB568D85F;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteral60D5801B3DE1545126B373152DA0C17EB568D85F);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
@@ -3888,79 +6431,2189 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m49148645F69CE13FF589AA41D6AC33398BDC8460 (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
-	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
-	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
-	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
-	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
-	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
 }
-IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_IDisposable_Dispose_mE3361A3A3C9692FA66AAF8FD7034EB883687D673 (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCountdownU3Ed__88_MoveNext_m1E09C5E56C62CA174C8A16409D402007775CE48F (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
 		s_Il2CppMethodInitialized = true;
 	}
-	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
-	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
-	int32_t unmarshaledTotalTypes_temp_2 = 0;
-	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
-	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
-	int32_t unmarshaledTotalFiles_temp_3 = 0;
-	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
-	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
-	bool unmarshaledIsEditorOnly_temp_4 = false;
-	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
-	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+	int32_t V_0 = 0;
+	GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_4 = V_1;
+		float L_5 = __this->___countdownValue;
+		L_4->___currCountdownValue = L_5;
+		goto IL_009f;
+	}
+
+IL_002c:
+	{
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_6 = V_1;
+		float* L_7 = (float*)(&L_6->___currCountdownValue);
+		String_t* L_8;
+		L_8 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_10, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_11 = V_1;
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_12 = V_1;
+		float L_13 = L_12->___currCountdownValue;
+		L_11->___currCountdownValue = ((float)il2cpp_codegen_subtract(L_13, (1.0f)));
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_14 = V_1;
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_15 = V_1;
+		float L_16 = L_15->___currCountdownValue;
+		L_14->___timeLeft = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_17 = V_1;
+		int32_t* L_18 = (int32_t*)(&L_17->___timeLeft);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+	}
+
+IL_009f:
+	{
+		GM_V02_W01_t3EE5A97E0A9213D061DC921EB040AD60591EF1E1* L_21 = V_1;
+		float L_22 = L_21->___currCountdownValue;
+		if ((((float)L_22) > ((float)(0.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
 }
-IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1A4E7118E1C462BF9234BD4CB4B44DE345774B5F (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
-	marshaled.___FilePathsData = NULL;
-	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
-	marshaled.___TypesData = NULL;
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
 }
-IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mABD76566B787F9270901F038A2C45E19CEC15F73 (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, const RuntimeMethod* method) 
 {
-	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
-	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
-	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
-	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
-	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mABD76566B787F9270901F038A2C45E19CEC15F73_RuntimeMethod_var)));
+	}
 }
-IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_get_Current_m58BD3A0D23BFB4D794F43A25270DF402AF3638DD (U3CStartCountdownU3Ed__88_tAB8F28709D48ED5611A968399118420D3E3D18EE* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_Start_mD6B35F2DAEE3F46C61F3589BE3611F806D83C51E (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
-	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
-	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
-	int32_t unmarshaledTotalTypes_temp_2 = 0;
-	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
-	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
-	int32_t unmarshaledTotalFiles_temp_3 = 0;
-	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
-	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
-	bool unmarshaledIsEditorOnly_temp_4 = false;
-	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
-	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+	{
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W02_InitGame_m1D8158583ACF825D6E8C1080CC49C818BE681AAA(__this, NULL);
+		GM_V02_W02_InitLetters_mBF63B2AD577252111AEC8ED06F405F556F19BC12(__this, NULL);
+		return;
+	}
 }
-IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_Update_mDC2C8E5A117DD1C5CFB3C91554FD95F3D426F0C8 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
-	marshaled.___FilePathsData = NULL;
-	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
-	marshaled.___TypesData = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BCDF40A96AEBD3A707FF35400448118082A36B9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word02Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral5BCDF40A96AEBD3A707FF35400448118082A36B9);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word02Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W02_CheckKeyboard3a1_m6BC00665B0AF66C6825CA977E4F6336C0A26BDAF(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_InitGame_m1D8158583ACF825D6E8C1080CC49C818BE681AAA (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W02_StartCountdown_mC74D86F6D9BD0D15DD536078D9666FE23C4C0B2C(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_InitLetters_mBF63B2AD577252111AEC8ED06F405F556F19BC12 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard_m5DB36374434BA8231EEFC3BD6ACB6EBB59629B5C (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard2_m0CDFB741E2E8B12868693C81D6693997F5E53E21 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard2a_m17174F0519F1889D0A663C7703F48F96CF2FCCE1 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard2a1_mD3BE80442B54132B4BEE0B85FD7F17F4B0F9FBE6 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard3_m68E6F6E2417CFF100B8B876F3C54DDC670546F68 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard3a_m38B2BAE16BA0203958060428CD407871E8A98CD0 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_CheckKeyboard3a1_m6BC00665B0AF66C6825CA977E4F6336C0A26BDAF (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_NextWord01_m3283724C4F58DF6F2449244E0C3C0242A7570C5D (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_NextWord02_m83AEEAF9B92789622884BA12C7473F2AC5F70D05 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W02_PlayNextLevel_mF7413CDE7BE901EC49F53DD1345EDABDE240A3AB(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_PlayNextLevel_mF7413CDE7BE901EC49F53DD1345EDABDE240A3AB (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		int32_t L_1 = __this->___randomNumber;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		bool L_2 = __this->___word01Completed;
+		if (L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		int32_t L_3 = __this->___randomNumber;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		bool L_4 = __this->___word02Completed;
+		if (L_4)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0046:
+	{
+		int32_t L_5 = __this->___randomNumber;
+		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		bool L_6 = __this->___word03Completed;
+		if (L_6)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0062:
+	{
+		int32_t L_7 = __this->___randomNumber;
+		if ((!(((uint32_t)L_7) == ((uint32_t)4))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		bool L_8 = __this->___word04Completed;
+		if (L_8)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_007e:
+	{
+		int32_t L_9 = __this->___randomNumber;
+		if ((!(((uint32_t)L_9) == ((uint32_t)5))))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		bool L_10 = __this->___word05Completed;
+		if (L_10)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_009a:
+	{
+		int32_t L_11 = __this->___randomNumber;
+		if ((!(((uint32_t)L_11) == ((uint32_t)6))))
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		bool L_12 = __this->___word05Completed;
+		if (L_12)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00b6:
+	{
+		int32_t L_13 = __this->___randomNumber;
+		if ((!(((uint32_t)L_13) == ((uint32_t)7))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		bool L_14 = __this->___word06Completed;
+		if (L_14)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00d2:
+	{
+		int32_t L_15 = __this->___randomNumber;
+		if ((!(((uint32_t)L_15) == ((uint32_t)8))))
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		bool L_16 = __this->___word07Completed;
+		if (L_16)
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00ee:
+	{
+		int32_t L_17 = __this->___randomNumber;
+		if ((!(((uint32_t)L_17) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		bool L_18 = __this->___word08Completed;
+		if (L_18)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_010b:
+	{
+		int32_t L_19 = __this->___randomNumber;
+		if ((!(((uint32_t)L_19) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		bool L_20 = __this->___word09Completed;
+		if (L_20)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_0128:
+	{
+		GM_V02_W02_NextWord02_m83AEEAF9B92789622884BA12C7473F2AC5F70D05(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_RepeatWord_mA96B918C309C9DE4E9E8CEEB92F6A3DFE3085FF3 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_PausedGame_mF10AEB4DF980D3B2EA328AFBF019E24531C16106 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_UnPausedGame_mE2F24540DEE5AC0694F84570A8A6643C85B0A154 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_FreeHint_mBEBFEB07C4CD75D65163DDFF51EF8D0769932D9F (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_ToMainMenu_mEBBE0E504A8564E38E4412AC5D624356A8F053C0 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W02_StartCountdown_mC74D86F6D9BD0D15DD536078D9666FE23C4C0B2C (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* L_0 = (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_m41239A3161A2D116DB4498CFE8360937AE06D9D3(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02_WordChecker_m67BDB03600BB8D737DC5C73939543E5EF2FD6F96 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W02__ctor_m34B0099176BF822A23556487019073353EB17BF3 (GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9E5276BC0837B816E809EA494EBB324DAC3F5A56);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteral9E5276BC0837B816E809EA494EBB324DAC3F5A56;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteral9E5276BC0837B816E809EA494EBB324DAC3F5A56);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3970,6 +8623,139 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m41239A3161A2D116DB4498CFE8360937AE06D9D3 (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_IDisposable_Dispose_mB3FE538D8F8A9B343FF00B4242C3D317B5AF3E51 (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCountdownU3Ed__88_MoveNext_mC8EDDA112601F6E594762E0C6D15434D4C55FF32 (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_4 = V_1;
+		float L_5 = __this->___countdownValue;
+		L_4->___currCountdownValue = L_5;
+		goto IL_009f;
+	}
+
+IL_002c:
+	{
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_6 = V_1;
+		float* L_7 = (float*)(&L_6->___currCountdownValue);
+		String_t* L_8;
+		L_8 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_10, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_11 = V_1;
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_12 = V_1;
+		float L_13 = L_12->___currCountdownValue;
+		L_11->___currCountdownValue = ((float)il2cpp_codegen_subtract(L_13, (1.0f)));
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_14 = V_1;
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_15 = V_1;
+		float L_16 = L_15->___currCountdownValue;
+		L_14->___timeLeft = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_17 = V_1;
+		int32_t* L_18 = (int32_t*)(&L_17->___timeLeft);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+	}
+
+IL_009f:
+	{
+		GM_V02_W02_t229FB9DA0A15AD8E13D008E3358CB45710C62FB1* L_21 = V_1;
+		float L_22 = L_21->___currCountdownValue;
+		if ((((float)L_22) > ((float)(0.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m810273D04F652AB0318DDA488EB663D76150BF6F (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m7DB86260F8E2BF70303E900AB476548BB18567E5 (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m7DB86260F8E2BF70303E900AB476548BB18567E5_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_get_Current_mA99A2CBFB731718C011E2035C5041E22D16D1815 (U3CStartCountdownU3Ed__88_t9E7563D9DD0BAC2F75645EC5D2BC78D5C68A2E2E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3978,6 +8764,2046 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_Start_m92A3CBFEFD628E6FCA74D5A285DD8722AF147ADD (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W03_InitGame_m2BE312B9F0BD463B4CABCABBFBDF5DA162DDEE3D(__this, NULL);
+		GM_V02_W03_InitLetters_m29F52EA05D9A8ADEE5B476357015196A476784D5(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_Update_m4F9D28868ACEC2CBC9465777B3CCBC039D747B0E (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6655DBAF39AB0EF5813846A4E6DB765D59DE5F7B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word03Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral6655DBAF39AB0EF5813846A4E6DB765D59DE5F7B);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word03Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W03_CheckKeyboard3a1_mB8A79B13B45215166D702A5F197BBF8F65B2D402(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_InitGame_m2BE312B9F0BD463B4CABCABBFBDF5DA162DDEE3D (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W03_StartCountdown_mFBA27567724E3F94871FD38B3A7B37A3A936460C(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_InitLetters_m29F52EA05D9A8ADEE5B476357015196A476784D5 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard_mB9876DE79A3706BC550D7B03CE3E170E42A79F14 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard2_m5B688142908E779666D52A051AE8F88444511E30 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard2a_m12037147FDFD0859715F5C5CD69B2467FEDA4891 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard2a1_mDED7DC44AE4F7EAF365E95E5B38C8650C3E15850 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard3_m499C4663DA1333D1F520EAAF0C314705C7BD6242 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard3a_m7AA10A2378CFBC5D9C164DC86B32C4994FDDB6B3 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_CheckKeyboard3a1_mB8A79B13B45215166D702A5F197BBF8F65B2D402 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_NextWord01_m9BCDB03D01BA7028F171448877EDB83F3486F549 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_NextWord02_m1083F0BBFC728054600C583873B8138A37755DEA (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W03_PlayNextLevel_m529FF6363FCF43A2335D3DFCE0F453D06EC7D1B4(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_PlayNextLevel_m529FF6363FCF43A2335D3DFCE0F453D06EC7D1B4 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->___randomNumber;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		bool L_1 = __this->___word01Completed;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		int32_t L_2 = __this->___randomNumber;
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_3 = __this->___word02Completed;
+		if (L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0038:
+	{
+		int32_t L_4 = __this->___randomNumber;
+		if ((!(((uint32_t)L_4) == ((uint32_t)3))))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		bool L_5 = __this->___word03Completed;
+		if (L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0054:
+	{
+		int32_t L_6 = __this->___randomNumber;
+		if ((!(((uint32_t)L_6) == ((uint32_t)4))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		bool L_7 = __this->___word04Completed;
+		if (L_7)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_0070:
+	{
+		int32_t L_8 = __this->___randomNumber;
+		if ((!(((uint32_t)L_8) == ((uint32_t)5))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		bool L_9 = __this->___word05Completed;
+		if (L_9)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_008c:
+	{
+		int32_t L_10 = __this->___randomNumber;
+		if ((!(((uint32_t)L_10) == ((uint32_t)6))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		bool L_11 = __this->___word05Completed;
+		if (L_11)
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00a8:
+	{
+		int32_t L_12 = __this->___randomNumber;
+		if ((!(((uint32_t)L_12) == ((uint32_t)7))))
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		bool L_13 = __this->___word06Completed;
+		if (L_13)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00c4:
+	{
+		int32_t L_14 = __this->___randomNumber;
+		if ((!(((uint32_t)L_14) == ((uint32_t)8))))
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		bool L_15 = __this->___word07Completed;
+		if (L_15)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00e0:
+	{
+		int32_t L_16 = __this->___randomNumber;
+		if ((!(((uint32_t)L_16) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		bool L_17 = __this->___word08Completed;
+		if (L_17)
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_00fd:
+	{
+		int32_t L_18 = __this->___randomNumber;
+		if ((!(((uint32_t)L_18) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		bool L_19 = __this->___word09Completed;
+		if (L_19)
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_011a:
+	{
+		GM_V02_W03_NextWord02_m1083F0BBFC728054600C583873B8138A37755DEA(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_RepeatWord_m3FA918C55C6A5918D6D74425E53DDD3DA7F27A3F (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_PausedGame_mA93976C55F128C608EAE031CAF4CEB6CA59165B3 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_UnPausedGame_m3A8FAA2D28E3595DE713E2AC5832E3C5FCDAA898 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_FreeHint_mC08E82D461AF5BCF67740A3123F9CBC881704673 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_ToMainMenu_m6EBF8E3E5173B7B30BB697BD9DEDC2E05C837561 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W03_StartCountdown_mFBA27567724E3F94871FD38B3A7B37A3A936460C (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* L_0 = (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_m7C77F3A423B2007360880B57EABCE3A6E5412C8B(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03_WordChecker_m91F3F6AF3417F41CDDD3A82EB308BC2073258FD5 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W03__ctor_mE006094F9CCEA55A080B8FBD50C1BDCA874F09F9 (GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF250BEFE029321C5BC2159F18CBE5BD69838F047);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteralF250BEFE029321C5BC2159F18CBE5BD69838F047;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteralF250BEFE029321C5BC2159F18CBE5BD69838F047);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3986,6 +10812,8763 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m7C77F3A423B2007360880B57EABCE3A6E5412C8B (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_IDisposable_Dispose_mAFFB1B8A75939C1D350456341D57C31503C866B0 (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCountdownU3Ed__88_MoveNext_m93CB44115CA9840BD86113074148EB062AA37EA5 (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_4 = V_1;
+		float L_5 = __this->___countdownValue;
+		L_4->___currCountdownValue = L_5;
+		goto IL_009f;
+	}
+
+IL_002c:
+	{
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_6 = V_1;
+		float* L_7 = (float*)(&L_6->___currCountdownValue);
+		String_t* L_8;
+		L_8 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_10, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_11 = V_1;
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_12 = V_1;
+		float L_13 = L_12->___currCountdownValue;
+		L_11->___currCountdownValue = ((float)il2cpp_codegen_subtract(L_13, (1.0f)));
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_14 = V_1;
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_15 = V_1;
+		float L_16 = L_15->___currCountdownValue;
+		L_14->___timeLeft = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_17 = V_1;
+		int32_t* L_18 = (int32_t*)(&L_17->___timeLeft);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+	}
+
+IL_009f:
+	{
+		GM_V02_W03_t975BE916F9C31F32A38F0ABAC8EB3A559F2B640E* L_21 = V_1;
+		float L_22 = L_21->___currCountdownValue;
+		if ((((float)L_22) > ((float)(0.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m86EF2A6CA9F0B0A75874CD42187DAF74F80EC421 (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mCE9DAE748A4C05205A7C21AB56E60CFFE6E46AA7 (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mCE9DAE748A4C05205A7C21AB56E60CFFE6E46AA7_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_get_Current_mA57D26E57598E1593CE260353BBC95F603DF0FC9 (U3CStartCountdownU3Ed__88_tD8366F5160D7A704472DDC247AA5FCC3E479B426* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_Start_m7A458F941A6E752BC49F8FDD581F39C912FE87AD (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W04_InitGame_mE0DC8A1E2F0826F779AEEEEE6E35A4EDFC4D50C2(__this, NULL);
+		GM_V02_W04_InitLetters_m648CF1C7FDEBF45A061DD35E74E9C0FEFC3A58D0(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_Update_m46A168C073078FE3BD9F2423A50E7A0C7E53F78D (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDD0DBAA81894DDA2C040A821CD9B373A88C6174F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word04Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteralDD0DBAA81894DDA2C040A821CD9B373A88C6174F);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word04Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W04_CheckKeyboard3a1_mA816FCD753A90F9ACA39F8071265F6EF4098E74E(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_InitGame_mE0DC8A1E2F0826F779AEEEEE6E35A4EDFC4D50C2 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W04_StartCountdown_m774FDC2D961EAF6EACC6B3BF4679EF2BA16F3302(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_InitLetters_m648CF1C7FDEBF45A061DD35E74E9C0FEFC3A58D0 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard_mCDBC49A18B47D84CAE66500DBCF52BAEE6623555 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard2_mD49255CCB6322C4359F49B39CB9D6AB63D4F2FA9 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard2a_m6408716289812559D2AA3D15ACC01FF0FD1F7C0B (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard2a1_m60F98DFCBAD360ACDCBDF3F87850ADFD7B079EA8 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard3_mF31BC1D8CD3A68940A850BB4F03E860DE4C19B1E (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard3a_m3C50873C48AA3FA959259522DE9C3B48D7CC8551 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_CheckKeyboard3a1_mA816FCD753A90F9ACA39F8071265F6EF4098E74E (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_NextWord01_mCC70587D794A1923E861460AE0A9DC4A42E9E2E8 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_NextWord02_mEF2E3C2B5297DAD7E73BAFD5CE044C16CF8C86CE (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W04_PlayNextLevel_mF55515A612D984020DFFAB9F24520107B2B25FAD(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_PlayNextLevel_mF55515A612D984020DFFAB9F24520107B2B25FAD (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		int32_t L_1 = __this->___randomNumber;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		bool L_2 = __this->___word01Completed;
+		if (L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		int32_t L_3 = __this->___randomNumber;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		bool L_4 = __this->___word02Completed;
+		if (L_4)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0046:
+	{
+		int32_t L_5 = __this->___randomNumber;
+		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		bool L_6 = __this->___word03Completed;
+		if (L_6)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0062:
+	{
+		int32_t L_7 = __this->___randomNumber;
+		if ((!(((uint32_t)L_7) == ((uint32_t)4))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		bool L_8 = __this->___word04Completed;
+		if (L_8)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_007e:
+	{
+		int32_t L_9 = __this->___randomNumber;
+		if ((!(((uint32_t)L_9) == ((uint32_t)5))))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		bool L_10 = __this->___word05Completed;
+		if (L_10)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_009a:
+	{
+		int32_t L_11 = __this->___randomNumber;
+		if ((!(((uint32_t)L_11) == ((uint32_t)6))))
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		bool L_12 = __this->___word05Completed;
+		if (L_12)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00b6:
+	{
+		int32_t L_13 = __this->___randomNumber;
+		if ((!(((uint32_t)L_13) == ((uint32_t)7))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		bool L_14 = __this->___word06Completed;
+		if (L_14)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00d2:
+	{
+		int32_t L_15 = __this->___randomNumber;
+		if ((!(((uint32_t)L_15) == ((uint32_t)8))))
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		bool L_16 = __this->___word07Completed;
+		if (L_16)
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00ee:
+	{
+		int32_t L_17 = __this->___randomNumber;
+		if ((!(((uint32_t)L_17) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		bool L_18 = __this->___word08Completed;
+		if (L_18)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_010b:
+	{
+		int32_t L_19 = __this->___randomNumber;
+		if ((!(((uint32_t)L_19) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		bool L_20 = __this->___word09Completed;
+		if (L_20)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_0128:
+	{
+		GM_V02_W04_NextWord02_mEF2E3C2B5297DAD7E73BAFD5CE044C16CF8C86CE(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_RepeatWord_m8DF238EB8B614C300BAA8A8463D967B02244ACD3 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_PausedGame_m63D6113F4F3018FCCCB89288319B3032C3E54689 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_UnPausedGame_mE481517309C9ADA259DC63C76BCA67A949615ED0 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_FreeHint_m2F68712AAD1B2F9E1902B25D26BD82AE0D17668F (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_ToMainMenu_m5D338FB5FF86F93776F626CE54A028DDBFC6B7E6 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W04_StartCountdown_m774FDC2D961EAF6EACC6B3BF4679EF2BA16F3302 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* L_0 = (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_mE491E6A499B8C1C6912A51973F77C606BD483813(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04_WordChecker_m72A80C50CD55DB4249D6D9BB434396ED839A669A (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W04__ctor_m3B49388A73A90E69EEB715A244C381368FBDA9F5 (GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45499CD72126EF97B1CD4C5352817D24757A0592);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteral45499CD72126EF97B1CD4C5352817D24757A0592;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteral45499CD72126EF97B1CD4C5352817D24757A0592);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_mE491E6A499B8C1C6912A51973F77C606BD483813 (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_IDisposable_Dispose_m4EC9655AC4F9D290466DAFD89C44EEC6ACE35EEF (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCountdownU3Ed__88_MoveNext_m7C59225407DFB528AFE17A72674E3D2856E8E475 (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_4 = V_1;
+		float L_5 = __this->___countdownValue;
+		L_4->___currCountdownValue = L_5;
+		goto IL_009f;
+	}
+
+IL_002c:
+	{
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_6 = V_1;
+		float* L_7 = (float*)(&L_6->___currCountdownValue);
+		String_t* L_8;
+		L_8 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_10, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_11 = V_1;
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_12 = V_1;
+		float L_13 = L_12->___currCountdownValue;
+		L_11->___currCountdownValue = ((float)il2cpp_codegen_subtract(L_13, (1.0f)));
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_14 = V_1;
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_15 = V_1;
+		float L_16 = L_15->___currCountdownValue;
+		L_14->___timeLeft = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_17 = V_1;
+		int32_t* L_18 = (int32_t*)(&L_17->___timeLeft);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+	}
+
+IL_009f:
+	{
+		GM_V02_W04_tD6D6A95BDD3B367518436D1D72D30ED7DEEF7EE7* L_21 = V_1;
+		float L_22 = L_21->___currCountdownValue;
+		if ((((float)L_22) > ((float)(0.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4270561F60A9B9AB4828051AC2694CADBB6BCEE3 (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mCAC7E9D3FF3951E315BE3830A0EC952EF53D7DF4 (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_mCAC7E9D3FF3951E315BE3830A0EC952EF53D7DF4_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_get_Current_mAEF2BE7944BD05264EE4D6B7A2DB8922601F2774 (U3CStartCountdownU3Ed__88_tF3D52BCBF86D1C91F3208079E63B42D73E18D07B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_Start_m393879B0169E39CCCA3FFFF65A3D52E358391A9F (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W05_InitGame_m505B0DEF93818B49DF18506B2F47DD6634B05734(__this, NULL);
+		GM_V02_W05_InitLetters_mF0D4509FCDF1A08AAFBE9EB6BA32E3F0EB9C10F0(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_Update_m267B8470BD8D4972138B16CE397213D152D3514F (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0A0F04B7C8C75432B883350C7C57328463F50634);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word05Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral0A0F04B7C8C75432B883350C7C57328463F50634);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word05Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W05_CheckKeyboard3a1_m0255CB98343A1C890F60EF74EB7CB126314AEAE3(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_InitGame_m505B0DEF93818B49DF18506B2F47DD6634B05734 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W05_StartCountdown_mA46E07F0612C94F6E4490753E157E26D1185EA7D(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_InitLetters_mF0D4509FCDF1A08AAFBE9EB6BA32E3F0EB9C10F0 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard_mB5793C163B2342E65A567A1F54BFF88DC8ABEF3B (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard2_mA8F110B7E98B98F712129D2A9E9C8CE5F98531DD (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard2a_m7244FE7B51C726BC1EAB6FA7E9134C76B2295395 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard2a1_mD5C69EEFD6AAC7375E49BBB55C1A1B7318020032 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard3_mB3CA6A16BD7B8C8AA7824B60AC788F1AA1C91595 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard3a_m8A99EC9627ED8B0C653748002D2DD08676FCB09D (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_CheckKeyboard3a1_m0255CB98343A1C890F60EF74EB7CB126314AEAE3 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_NextWord01_mBDB24EE674003AD915BBB4293F08D435FBFB643F (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_NextWord02_m96BB6AFFFC28310DF08C42673B7F9E701034455D (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W05_PlayNextLevel_m7207FE9F6E2BE29232087339B0F9E472CC0E5271(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_PlayNextLevel_m7207FE9F6E2BE29232087339B0F9E472CC0E5271 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->___randomNumber;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		bool L_1 = __this->___word01Completed;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		int32_t L_2 = __this->___randomNumber;
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_3 = __this->___word02Completed;
+		if (L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0038:
+	{
+		int32_t L_4 = __this->___randomNumber;
+		if ((!(((uint32_t)L_4) == ((uint32_t)3))))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		bool L_5 = __this->___word03Completed;
+		if (L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0054:
+	{
+		int32_t L_6 = __this->___randomNumber;
+		if ((!(((uint32_t)L_6) == ((uint32_t)4))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		bool L_7 = __this->___word04Completed;
+		if (L_7)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_0070:
+	{
+		int32_t L_8 = __this->___randomNumber;
+		if ((!(((uint32_t)L_8) == ((uint32_t)5))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		bool L_9 = __this->___word05Completed;
+		if (L_9)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_008c:
+	{
+		int32_t L_10 = __this->___randomNumber;
+		if ((!(((uint32_t)L_10) == ((uint32_t)6))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		bool L_11 = __this->___word05Completed;
+		if (L_11)
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00a8:
+	{
+		int32_t L_12 = __this->___randomNumber;
+		if ((!(((uint32_t)L_12) == ((uint32_t)7))))
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		bool L_13 = __this->___word06Completed;
+		if (L_13)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00c4:
+	{
+		int32_t L_14 = __this->___randomNumber;
+		if ((!(((uint32_t)L_14) == ((uint32_t)8))))
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		bool L_15 = __this->___word07Completed;
+		if (L_15)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00e0:
+	{
+		int32_t L_16 = __this->___randomNumber;
+		if ((!(((uint32_t)L_16) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		bool L_17 = __this->___word08Completed;
+		if (L_17)
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_00fd:
+	{
+		int32_t L_18 = __this->___randomNumber;
+		if ((!(((uint32_t)L_18) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		bool L_19 = __this->___word09Completed;
+		if (L_19)
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_011a:
+	{
+		GM_V02_W05_NextWord02_m96BB6AFFFC28310DF08C42673B7F9E701034455D(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_RepeatWord_m2EAC3088F83F5721E59A44428765C00E34D82F1B (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_PausedGame_m413ACD31598187354607E628CD6D7FDDEFE0577D (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_UnPausedGame_mF2F6D429684B39114C0B139ED001B95DB662176E (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_FreeHint_mED2148327F1FF464B6440048D886841C759E4FCA (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_ToMainMenu_m5530CD3A8B27B0C8C751C116FBBB8974097979EB (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W05_StartCountdown_mA46E07F0612C94F6E4490753E157E26D1185EA7D (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* L_0 = (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_mE405E4A81A94CDC69A3453AFB08FD7A45C519BB1(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05_WordChecker_mDAEABCA1D8E67299EB3045EA8A8CD65DA1679BFD (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W05__ctor_m223EFCAE55A0788811AD4C61FDD60E9B78302C51 (GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE392B5C08F043A2B6C49BA3F83D166E2ED35E3A1);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteralE392B5C08F043A2B6C49BA3F83D166E2ED35E3A1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteralE392B5C08F043A2B6C49BA3F83D166E2ED35E3A1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_mE405E4A81A94CDC69A3453AFB08FD7A45C519BB1 (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_IDisposable_Dispose_m8A5B900EA3570B5086F128FDD0CFDD464E309428 (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCountdownU3Ed__88_MoveNext_mA315115B8719ED5907CA5FF19D2B20472BBC925F (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_4 = V_1;
+		float L_5 = __this->___countdownValue;
+		L_4->___currCountdownValue = L_5;
+		goto IL_009f;
+	}
+
+IL_002c:
+	{
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_6 = V_1;
+		float* L_7 = (float*)(&L_6->___currCountdownValue);
+		String_t* L_8;
+		L_8 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_10, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_11 = V_1;
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_12 = V_1;
+		float L_13 = L_12->___currCountdownValue;
+		L_11->___currCountdownValue = ((float)il2cpp_codegen_subtract(L_13, (1.0f)));
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_14 = V_1;
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_15 = V_1;
+		float L_16 = L_15->___currCountdownValue;
+		L_14->___timeLeft = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_17 = V_1;
+		int32_t* L_18 = (int32_t*)(&L_17->___timeLeft);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+	}
+
+IL_009f:
+	{
+		GM_V02_W05_tF6AD8AA04EE2DF49089AC73C53B860BE9D838B6F* L_21 = V_1;
+		float L_22 = L_21->___currCountdownValue;
+		if ((((float)L_22) > ((float)(0.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA345D1264073A44D12EA67FA3989BE9C4F457147 (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m60388293F95FCA29A753105D56618D572BDF1103 (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m60388293F95FCA29A753105D56618D572BDF1103_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_get_Current_mF535CEED6D9710B9A45FBDEFCBA87F1F544AEF08 (U3CStartCountdownU3Ed__88_t1FED25840AE2BC787D9D3530B22269D109468EC8* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_Start_m1F77849A22C0A00C1F09F81CE0FB6B39CCD2E271 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W06_InitGame_mAFBF1E4E88DBD049B65BFC139BA06AF34C9855F7(__this, NULL);
+		GM_V02_W06_InitLetters_mB55ABC1F98E7D9AE20822CDE3681D442992CE861(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_Update_m137C71E0DDF109A4B27963739950A741FB2BB3D1 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD1E068B2A982B318954B3CCFBD9044C06F22ACEF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word06Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteralD1E068B2A982B318954B3CCFBD9044C06F22ACEF);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word06Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W06_CheckKeyboard3a1_m7870BF8DFB75585DC2BF80142022124302F4C8CB(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_InitGame_mAFBF1E4E88DBD049B65BFC139BA06AF34C9855F7 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W06_StartCountdown_m2F9B0827CF1026794FFE769E03BE35594BEFCFD9(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_InitLetters_mB55ABC1F98E7D9AE20822CDE3681D442992CE861 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard_m8C782B24873CD35EA13622D29EFAF56F615EB7AD (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard2_m6DF949E39071074D5DE58D8E021378E79463EF0C (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard2a_mA066FA22BE8295A6F307301FD0950A874BF8222C (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard2a1_mD623CBBC5A016D432A9FA06A28D7196A2C8CE866 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard3_m8C8AA0546A8D4E2099C10D0055498EC1C7744416 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard3a_m7099762910F2E4E149A4EF8585041000953D403F (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_CheckKeyboard3a1_m7870BF8DFB75585DC2BF80142022124302F4C8CB (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_NextWord01_mF378A68C4C475683008EDC942C2DED963D845AD5 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_NextWord02_mFC8FEB3B7F75E351FF299CA5F97E327EAD57722D (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W06_PlayNextLevel_mBD5C008DD328BB63631CB7BB20F518958D0CD6D1(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_PlayNextLevel_mBD5C008DD328BB63631CB7BB20F518958D0CD6D1 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		int32_t L_1 = __this->___randomNumber;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		bool L_2 = __this->___word01Completed;
+		if (L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		int32_t L_3 = __this->___randomNumber;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		bool L_4 = __this->___word02Completed;
+		if (L_4)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0046:
+	{
+		int32_t L_5 = __this->___randomNumber;
+		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		bool L_6 = __this->___word03Completed;
+		if (L_6)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0062:
+	{
+		int32_t L_7 = __this->___randomNumber;
+		if ((!(((uint32_t)L_7) == ((uint32_t)4))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		bool L_8 = __this->___word04Completed;
+		if (L_8)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_007e:
+	{
+		int32_t L_9 = __this->___randomNumber;
+		if ((!(((uint32_t)L_9) == ((uint32_t)5))))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		bool L_10 = __this->___word05Completed;
+		if (L_10)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_009a:
+	{
+		int32_t L_11 = __this->___randomNumber;
+		if ((!(((uint32_t)L_11) == ((uint32_t)6))))
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		bool L_12 = __this->___word05Completed;
+		if (L_12)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00b6:
+	{
+		int32_t L_13 = __this->___randomNumber;
+		if ((!(((uint32_t)L_13) == ((uint32_t)7))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		bool L_14 = __this->___word06Completed;
+		if (L_14)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00d2:
+	{
+		int32_t L_15 = __this->___randomNumber;
+		if ((!(((uint32_t)L_15) == ((uint32_t)8))))
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		bool L_16 = __this->___word07Completed;
+		if (L_16)
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00ee:
+	{
+		int32_t L_17 = __this->___randomNumber;
+		if ((!(((uint32_t)L_17) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		bool L_18 = __this->___word08Completed;
+		if (L_18)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_010b:
+	{
+		int32_t L_19 = __this->___randomNumber;
+		if ((!(((uint32_t)L_19) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		bool L_20 = __this->___word09Completed;
+		if (L_20)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_0128:
+	{
+		GM_V02_W06_NextWord02_mFC8FEB3B7F75E351FF299CA5F97E327EAD57722D(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_RepeatWord_mC0B8F06DA1BFB24BCDC505323242C79A54911BCC (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_PausedGame_m497578F8FE4922519ED1ED49A068D5F41F2601BC (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_UnPausedGame_mC670DEE702B0EF6C6CD3156BCC554A0C5532D36C (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_FreeHint_mBC5E4022BE9EC8058CDCAF4539AA0BC4F715AAE4 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_ToMainMenu_m49211AC51212CB79140E9F67A8D7CF6F006D506B (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W06_StartCountdown_m2F9B0827CF1026794FFE769E03BE35594BEFCFD9 (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* L_0 = (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_m79302ACEFC6F0354DB6260FE8945AC8AE417E063(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06_WordChecker_m552B062B504E478328E3976E78A4B8104C35CA2D (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W06__ctor_m5456CA5C78350E5BBD8674478C84286A057F80FB (GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6321937EBA5C9DC32AACDF099068A0C6380A14BF);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteral6321937EBA5C9DC32AACDF099068A0C6380A14BF;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteral6321937EBA5C9DC32AACDF099068A0C6380A14BF);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88__ctor_m79302ACEFC6F0354DB6260FE8945AC8AE417E063 (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_IDisposable_Dispose_m1976A5002DE26F546D0DE4953B7D3196DF78097F (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCountdownU3Ed__88_MoveNext_mB7F6900EFEAC51DB90AEAE93709C7527BFFEEF8D (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_4 = V_1;
+		float L_5 = __this->___countdownValue;
+		L_4->___currCountdownValue = L_5;
+		goto IL_009f;
+	}
+
+IL_002c:
+	{
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_6 = V_1;
+		float* L_7 = (float*)(&L_6->___currCountdownValue);
+		String_t* L_8;
+		L_8 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C2E8B48005C4A264C665AA6B2FC75EA543F116D, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_10, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_11 = V_1;
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_12 = V_1;
+		float L_13 = L_12->___currCountdownValue;
+		L_11->___currCountdownValue = ((float)il2cpp_codegen_subtract(L_13, (1.0f)));
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_14 = V_1;
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_15 = V_1;
+		float L_16 = L_15->___currCountdownValue;
+		L_14->___timeLeft = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_17 = V_1;
+		int32_t* L_18 = (int32_t*)(&L_17->___timeLeft);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+	}
+
+IL_009f:
+	{
+		GM_V02_W06_tBB48C6596767ED5A4D0183950BF058C2FA4621C7* L_21 = V_1;
+		float L_22 = L_21->___currCountdownValue;
+		if ((((float)L_22) > ((float)(0.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0CE10115CCC59FA97C581638C4629E077EC025A2 (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m43B0C73B49EF5DF382A10C04365CEFB2D73D1031 (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_Reset_m43B0C73B49EF5DF382A10C04365CEFB2D73D1031_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCountdownU3Ed__88_System_Collections_IEnumerator_get_Current_m0E5570BD8876E7AA0AA3EA12176126ABF3D5F52E (U3CStartCountdownU3Ed__88_tF0E072B2078A63FE1CF803FC5E839BAD7967986F* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_Start_m789A0B704E458D655A0E5AF903C8F401DAC7A17D (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___timeLeft = ((int32_t)60);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0FB70291C2A1F602871A34415BC3E9303502FC43, NULL);
+		__this->___center = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___center), (void*)L_0);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___letterGuessed01;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		GM_V02_W07_InitGame_m09F029BF0B2BB711ABB4ABD4CE7B355B1F4DF34C(__this, NULL);
+		GM_V02_W07_InitLetters_mAB5B14CEC48C4483C487E874AEE5C78F622FC787(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_Update_m359CBA26A11AA296E0493DFD52617BEFB74DB050 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBE0F593A2E476E659387E6C9F35A9D4116B04AC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timeLeftText;
+		int32_t* L_1 = (int32_t*)(&__this->___timeLeft);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6CAD9E42463CE8B59ACA6650AF9557050B0182B, L_2, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		int32_t L_4 = __this->___timeLeft;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0044:
+	{
+		int32_t L_7 = __this->___timeLeft;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)30))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_8 = __this->___timeLeft;
+		if ((((int32_t)L_8) < ((int32_t)1)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___hintButton;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00a2;
+	}
+
+IL_0071:
+	{
+		int32_t L_11 = __this->___timeLeft;
+		if (L_11)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___failPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		__this->___word07Done1 = 0;
+	}
+
+IL_00a2:
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___hintText;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteralFBE0F593A2E476E659387E6C9F35A9D4116B04AC);
+		bool L_15 = __this->___wordGuessed;
+		if (!L_15)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gamePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		__this->___word07Done1 = 1;
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___successPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+	}
+
+IL_00f1:
+	{
+		bool L_19;
+		L_19 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)27), NULL);
+		if (!L_19)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+	}
+
+IL_00ff:
+	{
+		GM_V02_W07_CheckKeyboard3a1_m19FFCA55CC6A51CF21A0D4AEAB309C4F3E4E03C4(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_InitGame_m09F029BF0B2BB711ABB4ABD4CE7B355B1F4DF34C (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->___wordToGuess;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		__this->___lengthOfWordToGuess = L_1;
+		String_t* L_2 = __this->___wordToGuess;
+		String_t* L_3;
+		L_3 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_2, NULL);
+		__this->___wordToGuess = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)L_3);
+		int32_t L_4 = __this->___lengthOfWordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___lettersToGuess = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_5);
+		int32_t L_6 = __this->___lengthOfWordToGuess;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___lettersGuessed = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersGuessed), (void*)L_7);
+		String_t* L_8 = __this->___wordToGuess;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9;
+		L_9 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_8, NULL);
+		__this->___lettersToGuess = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lettersToGuess), (void*)L_9);
+		RuntimeObject* L_10;
+		L_10 = GM_V02_W07_StartCountdown_m6BF1F756731D6408E9DE9A2ACE9F7D8E8F8119C2(__this, (60.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_InitLetters_mAB5B14CEC48C4483C487E874AEE5C78F622FC787 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->___lengthOfWordToGuess;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00ba;
+	}
+
+IL_000e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___y;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___center;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)L_5), ((float)(((float)L_6)/(2.5f))))), (50.0f))))), L_10, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___letter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_16, L_17, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18;
+		int32_t L_20 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_19;
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_23, _stringLiteral13DF55F4F80954B01D5B60627CB19C8FBA224F74, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral906902D085F4FCFFBE1AC027823E498FE4DA23F1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_24, L_26, NULL);
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00ba:
+	{
+		int32_t L_28 = V_1;
+		int32_t L_29 = V_0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard_m2A5088857CE2C3418DE24EBBC4E8067324712B92 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
+		if (!L_0)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0059;
+	}
+
+IL_000d:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___lettersGuessed;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = __this->___lettersToGuess;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		uint16_t L_8 = (uint16_t)(L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)65)))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___lettersGuessed;
+		int32_t L_10 = V_0;
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_13, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15;
+		L_15 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_14, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003);
+	}
+
+IL_0055:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_000d;
+		}
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard2_m34CADF61FD0599B9164CA2136EB51FAAD8100B18 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00cd;
+	}
+
+IL_0033:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___lettersGuessed;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		uint8_t L_11 = (uint8_t)(L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		if (L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_13;
+		L_13 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_12, NULL);
+		V_0 = L_13;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = __this->___lettersToGuess;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		uint16_t L_17 = (uint16_t)(L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = __this->___lettersGuessed;
+		int32_t L_20 = V_1;
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_21 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_27 = __this->___lettersToGuess;
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		uint16_t L_30 = (uint16_t)(L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
+		Il2CppChar L_31 = V_0;
+		if ((((int32_t)L_30) == ((int32_t)L_31)))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_32 = __this->___lettersGuessed;
+		int32_t L_33 = V_1;
+		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_34 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_35;
+		L_35 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, L_35);
+	}
+
+IL_00b9:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00c9:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard2a_m56B967470AC2044BC0D80BD2DB1393D1E114BFD7 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_00bd;
+	}
+
+IL_005f:
+	{
+		V_2 = 0;
+		goto IL_00af;
+	}
+
+IL_0063:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		int32_t L_26 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_28 = V_2;
+		String_t* L_29 = __this->___wordToGuess;
+		int32_t L_30;
+		L_30 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_29, NULL);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_00bd:
+	{
+		int32_t L_31 = __this->___lettersCorrect;
+		String_t* L_32 = __this->___wordToGuess;
+		int32_t L_33;
+		L_33 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_32, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)L_33))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard2a1_m599C60E4C25B6646E0AF6611B824AED8A0612310 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		bool L_0;
+		L_0 = Input_get_anyKeyDown_m9B8D98B5574A2AA63CEED98FBF0E2A1D946BCA71(NULL);
+		if (!L_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2;
+		L_2 = String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46(L_1, NULL);
+		int32_t L_3 = 0;
+		uint16_t L_4 = (uint16_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		Il2CppChar L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_5, NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		Il2CppChar L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_10;
+		L_10 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_9, NULL);
+		V_0 = L_10;
+		String_t* L_11 = __this->___wordToGuess;
+		Il2CppChar L_12 = V_0;
+		bool L_13;
+		L_13 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_11, L_12, 1, NULL);
+		if (L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_15;
+		L_15 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_15);
+		goto IL_0106;
+	}
+
+IL_0062:
+	{
+		V_2 = 0;
+		goto IL_00f5;
+	}
+
+IL_0069:
+	{
+		String_t* L_16 = __this->___wordToGuess;
+		int32_t L_17 = V_2;
+		Il2CppChar L_18;
+		L_18 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_16, L_17, NULL);
+		Il2CppChar L_19 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)L_19))))
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_21 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		String_t* L_22;
+		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_22, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_23, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25;
+		L_25 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_24, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_25);
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_20, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_28 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		String_t* L_29;
+		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_30;
+		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_30, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32;
+		L_32 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_31, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_33;
+		L_33 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_33);
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_34, 1));
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		int32_t L_35 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_35;
+	}
+
+IL_00f1:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00f5:
+	{
+		int32_t L_37 = V_2;
+		String_t* L_38 = __this->___wordToGuess;
+		int32_t L_39;
+		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0069;
+		}
+	}
+
+IL_0106:
+	{
+		int32_t L_40 = __this->___lettersCorrect;
+		String_t* L_41 = __this->___wordToGuess;
+		int32_t L_42;
+		L_42 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_41, NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard3_m80269473755049685B743F06F8D0EC3AF2679E78 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Il2CppChar L_6 = V_0;
+		if ((((int32_t)L_6) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_0037:
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = __this->___lettersGuessed;
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		uint8_t L_10 = (uint8_t)(L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		if (L_10)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_12;
+		L_12 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_11, NULL);
+		V_0 = L_12;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = __this->___lettersToGuess;
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		uint16_t L_16 = (uint16_t)(L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppChar L_17 = V_0;
+		if ((!(((uint32_t)L_16) == ((uint32_t)L_17))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___lettersGuessed;
+		int32_t L_19 = V_1;
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (bool)1);
+		__this->___wrongLetterGuessed = (bool)0;
+		int32_t L_20 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_25);
+		goto IL_00bd;
+	}
+
+IL_0090:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_26 = __this->___lettersToGuess;
+		int32_t L_27 = V_1;
+		int32_t L_28 = L_27;
+		uint16_t L_29 = (uint16_t)(L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Il2CppChar L_30 = V_0;
+		if ((((int32_t)L_29) == ((int32_t)L_30)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___lettersGuessed;
+		int32_t L_32 = V_1;
+		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_34);
+	}
+
+IL_00bd:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_35 = __this->___lettersToGuess;
+		if (L_35)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_36 = __this->___lettersToGuess;
+		if ((((RuntimeArray*)L_36)->max_length))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_38 = V_1;
+		int32_t L_39 = __this->___lengthOfWordToGuess;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard3a_m4A5B077B1D9AE73762C42845D88F1293266D8A85 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_00c1;
+	}
+
+IL_0063:
+	{
+		V_2 = 0;
+		goto IL_00b3;
+	}
+
+IL_0067:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_20, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_21, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23;
+		L_23 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_22, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, L_24);
+		int32_t L_25 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_00af:
+	{
+		int32_t L_26 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_27 = V_2;
+		String_t* L_28 = __this->___wordToGuess;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		if ((((int32_t)L_27) < ((int32_t)L_29)))
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_00c1:
+	{
+		int32_t L_30 = __this->___lettersCorrect;
+		String_t* L_31 = __this->___wordToGuess;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)L_32))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_CheckKeyboard3a1_m19FFCA55CC6A51CF21A0D4AEAB309C4F3E4E03C4 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		String_t* L_0;
+		L_0 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Input_get_inputString_mB022DED50E8838B8319C591830BEB21E4904561B(NULL);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		V_0 = L_3;
+		Il2CppChar L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_5;
+		L_5 = Convert_ToInt32_mDBBE9318A7CCE1560974CE93F5BFED9931CF0052(L_4, NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)97))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)122))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_9;
+		L_9 = Char_ToUpper_m7DB51DD07EE52F4CA897807281880930F5CBD2D2(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = __this->___wordToGuess;
+		Il2CppChar L_11 = V_0;
+		bool L_12;
+		L_12 = String_Contains_m182EA83138C61663D7F45F699EE295F0E70FD581(L_10, L_11, 1, NULL);
+		if (L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->___wrongLetterGuessed = (bool)1;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___letterGuessed01;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_14);
+		goto IL_010a;
+	}
+
+IL_0066:
+	{
+		V_2 = 0;
+		goto IL_00f9;
+	}
+
+IL_006d:
+	{
+		String_t* L_15 = __this->___wordToGuess;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_15, L_16, NULL);
+		Il2CppChar L_18 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_19;
+		L_19 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		int32_t L_20 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		String_t* L_21;
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_21, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_22, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24;
+		L_24 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_23, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_24);
+		bool L_26;
+		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_19, L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		int32_t L_27 = V_2;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		String_t* L_28;
+		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE57B52F42543D60ECC364F24EC3AAE9AF3148810, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_29, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31;
+		L_31 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_30, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_0), NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
+		int32_t L_33 = __this->___lettersCorrect;
+		__this->___lettersCorrect = ((int32_t)il2cpp_codegen_add(L_33, 1));
+		goto IL_00f5;
+	}
+
+IL_00e9:
+	{
+		int32_t L_34 = __this->___lettersCorrect;
+		__this->___lettersCorrect = L_34;
+	}
+
+IL_00f5:
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00f9:
+	{
+		int32_t L_36 = V_2;
+		String_t* L_37 = __this->___wordToGuess;
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_36) < ((int32_t)L_38)))
+		{
+			goto IL_006d;
+		}
+	}
+
+IL_010a:
+	{
+		int32_t L_39 = __this->___lettersCorrect;
+		String_t* L_40 = __this->___wordToGuess;
+		int32_t L_41;
+		L_41 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_40, NULL);
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_41))))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		__this->___wordGuessed = (bool)1;
+	}
+
+IL_0124:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_NextWord01_mE270E1EE190BBB0146978AD71BE5B1CE9F828E15 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_NextWord02_m43571A59BAB0A012ACD5AC2DDAF116D6CF9AA755 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		GM_V02_W07_PlayNextLevel_mE1B840F9D37F64FF82AB38FA442A70600B31D8AE(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_PlayNextLevel_mE1B840F9D37F64FF82AB38FA442A70600B31D8AE (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0;
+		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)20), NULL);
+		__this->___randomNumber = L_0;
+		int32_t L_1 = __this->___randomNumber;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		bool L_2 = __this->___word01Completed;
+		if (L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6010CB58E832D28EDFAB8EEB43F4D556E25BC819, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		int32_t L_3 = __this->___randomNumber;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		bool L_4 = __this->___word02Completed;
+		if (L_4)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53564C2AF2D4F3694ECBA5EEB545F1DAE2041BC4, NULL);
+		return;
+	}
+
+IL_0046:
+	{
+		int32_t L_5 = __this->___randomNumber;
+		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		bool L_6 = __this->___word03Completed;
+		if (L_6)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16A048B699B128207BC56A03DE49133B4F76DAD4, NULL);
+		return;
+	}
+
+IL_0062:
+	{
+		int32_t L_7 = __this->___randomNumber;
+		if ((!(((uint32_t)L_7) == ((uint32_t)4))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		bool L_8 = __this->___word04Completed;
+		if (L_8)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5B48681FAB65265AFD9078893FD863E714DD0092, NULL);
+		return;
+	}
+
+IL_007e:
+	{
+		int32_t L_9 = __this->___randomNumber;
+		if ((!(((uint32_t)L_9) == ((uint32_t)5))))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		bool L_10 = __this->___word05Completed;
+		if (L_10)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral681DA14B28D40D20C3104E4B0A05654D3FBB4BBA, NULL);
+		return;
+	}
+
+IL_009a:
+	{
+		int32_t L_11 = __this->___randomNumber;
+		if ((!(((uint32_t)L_11) == ((uint32_t)6))))
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		bool L_12 = __this->___word05Completed;
+		if (L_12)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral908C053683FC479ECD7DB2BC1C0827F4ADE5D2A9, NULL);
+		return;
+	}
+
+IL_00b6:
+	{
+		int32_t L_13 = __this->___randomNumber;
+		if ((!(((uint32_t)L_13) == ((uint32_t)7))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		bool L_14 = __this->___word06Completed;
+		if (L_14)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+
+IL_00d2:
+	{
+		int32_t L_15 = __this->___randomNumber;
+		if ((!(((uint32_t)L_15) == ((uint32_t)8))))
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		bool L_16 = __this->___word07Completed;
+		if (L_16)
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral763066215BEB172D35CC374B0D7602A21FD745E8, NULL);
+		return;
+	}
+
+IL_00ee:
+	{
+		int32_t L_17 = __this->___randomNumber;
+		if ((!(((uint32_t)L_17) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		bool L_18 = __this->___word08Completed;
+		if (L_18)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral014C474508E11D59F0079812C33AE0CD5ED6AC6B, NULL);
+		return;
+	}
+
+IL_010b:
+	{
+		int32_t L_19 = __this->___randomNumber;
+		if ((!(((uint32_t)L_19) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		bool L_20 = __this->___word09Completed;
+		if (L_20)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1B026D822E6F11EBA67E953C93939075CE37763D, NULL);
+		return;
+	}
+
+IL_0128:
+	{
+		GM_V02_W07_NextWord02_m43571A59BAB0A012ACD5AC2DDAF116D6CF9AA755(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_RepeatWord_mFF867362563CE034B7191B7D5CA08568DFFF97E5 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB2EE94275A1DD66648AA11ECCD0ADF259AE87966, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_PausedGame_m242EFD581B359AF7C37F554CEA4B4E5E1BBF0987 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_UnPausedGame_m97F6A8C434DAD7001959C17E084869A887C1F110 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausedPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_FreeHint_m410B145E44EBE774AC7FC7F4908BA1443AB1FB25 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___hintPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_ToMainMenu_m7C8D8CF1E87ABD5966E8478204728727997595DC (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral902AEFAB3E09D55EB915AEA11F044D0C4B82D380, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GM_V02_W07_StartCountdown_m6BF1F756731D6408E9DE9A2ACE9F7D8E8F8119C2 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, float ___0_countdownValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796* L_0 = (U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796*)il2cpp_codegen_object_new(U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796_il2cpp_TypeInfo_var);
+		U3CStartCountdownU3Ed__88__ctor_m960A3E9F70B8FFBA398F5F92E551909F201DBC25(L_0, 0, NULL);
+		U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796* L_1 = L_0;
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CStartCountdownU3Ed__88_tCE40EE2D577093443CC7F3D1DE498090D7B4E796* L_2 = L_1;
+		float L_3 = ___0_countdownValue;
+		L_2->___countdownValue = L_3;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07_WordChecker_m309CBBCEF537F106EB42C9EE297CD6ABFDDC04CD (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___word01Done1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		__this->___word01Completed = (bool)1;
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		__this->___word01Completed = (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = __this->___word02Done1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		__this->___word02Completed = (bool)1;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		__this->___word02Completed = (bool)0;
+	}
+
+IL_0032:
+	{
+		int32_t L_2 = __this->___word03Done1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_004b;
+	}
+
+IL_0044:
+	{
+		__this->___word03Completed = (bool)0;
+	}
+
+IL_004b:
+	{
+		int32_t L_3 = __this->___word04Done1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		__this->___word04Completed = (bool)1;
+		goto IL_0064;
+	}
+
+IL_005d:
+	{
+		__this->___word04Completed = (bool)0;
+	}
+
+IL_0064:
+	{
+		int32_t L_4 = __this->___word05Done1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		__this->___word05Completed = (bool)1;
+		goto IL_007d;
+	}
+
+IL_0076:
+	{
+		__this->___word05Completed = (bool)0;
+	}
+
+IL_007d:
+	{
+		int32_t L_5 = __this->___word06Done1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		__this->___word06Completed = (bool)1;
+		goto IL_0096;
+	}
+
+IL_008f:
+	{
+		__this->___word06Completed = (bool)0;
+	}
+
+IL_0096:
+	{
+		int32_t L_6 = __this->___word07Done1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		__this->___word07Completed = (bool)1;
+		goto IL_00af;
+	}
+
+IL_00a8:
+	{
+		__this->___word07Completed = (bool)0;
+	}
+
+IL_00af:
+	{
+		int32_t L_7 = __this->___word08Done1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		__this->___word08Completed = (bool)1;
+		goto IL_00c8;
+	}
+
+IL_00c1:
+	{
+		__this->___word08Completed = (bool)0;
+	}
+
+IL_00c8:
+	{
+		int32_t L_8 = __this->___word09Done1;
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		__this->___word09Completed = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00da:
+	{
+		__this->___word09Completed = (bool)0;
+	}
+
+IL_00e1:
+	{
+		int32_t L_9 = __this->___word10Done1;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->___word10Completed = (bool)1;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		__this->___word10Completed = (bool)0;
+	}
+
+IL_00fa:
+	{
+		int32_t L_10 = __this->___word11Done1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->___word11Completed = (bool)1;
+		goto IL_0113;
+	}
+
+IL_010c:
+	{
+		__this->___word11Completed = (bool)0;
+	}
+
+IL_0113:
+	{
+		int32_t L_11 = __this->___word12Done1;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->___word12Completed = (bool)1;
+		goto IL_012c;
+	}
+
+IL_0125:
+	{
+		__this->___word12Completed = (bool)0;
+	}
+
+IL_012c:
+	{
+		int32_t L_12 = __this->___word13Done1;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		__this->___word03Completed = (bool)1;
+		goto IL_0145;
+	}
+
+IL_013e:
+	{
+		__this->___word13Completed = (bool)0;
+	}
+
+IL_0145:
+	{
+		int32_t L_13 = __this->___word14Done1;
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___word14Completed = (bool)1;
+		goto IL_015e;
+	}
+
+IL_0157:
+	{
+		__this->___word14Completed = (bool)0;
+	}
+
+IL_015e:
+	{
+		int32_t L_14 = __this->___word15Done1;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		__this->___word15Completed = (bool)1;
+		goto IL_0177;
+	}
+
+IL_0170:
+	{
+		__this->___word15Completed = (bool)0;
+	}
+
+IL_0177:
+	{
+		int32_t L_15 = __this->___word16Done1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0189;
+		}
+	}
+	{
+		__this->___word16Completed = (bool)1;
+		goto IL_0190;
+	}
+
+IL_0189:
+	{
+		__this->___word16Completed = (bool)0;
+	}
+
+IL_0190:
+	{
+		int32_t L_16 = __this->___word17Done1;
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		__this->___word17Completed = (bool)1;
+		goto IL_01a9;
+	}
+
+IL_01a2:
+	{
+		__this->___word17Completed = (bool)0;
+	}
+
+IL_01a9:
+	{
+		int32_t L_17 = __this->___word18Done1;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		__this->___word18Completed = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_01bb:
+	{
+		__this->___word18Completed = (bool)0;
+	}
+
+IL_01c2:
+	{
+		int32_t L_18 = __this->___word19Done1;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		__this->___word19Completed = (bool)1;
+		goto IL_01db;
+	}
+
+IL_01d4:
+	{
+		__this->___word19Completed = (bool)0;
+	}
+
+IL_01db:
+	{
+		int32_t L_19 = __this->___word20Done1;
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		__this->___word20Completed = (bool)1;
+		return;
+	}
+
+IL_01ec:
+	{
+		__this->___word20Completed = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GM_V02_W07__ctor_m925FE7CAA5E1A41872BA8D24C167F7FC7B61FB25 (GM_V02_W07_t76E7AC65D748048343ADA74C646BD6E25CFC942C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3394348642CBB72AFFBFAD42A79EC9FCC6D96F48);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___wordToGuess = _stringLiteral3394348642CBB72AFFBFAD42A79EC9FCC6D96F48;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___wordToGuess), (void*)_stringLiteral3394348642CBB72AFFBFAD42A79EC9FCC6D96F48);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

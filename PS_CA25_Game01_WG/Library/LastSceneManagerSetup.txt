@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Version02/V02_Word03.unity
+- path: Assets/Scenes/Version02/V02_Word10.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
